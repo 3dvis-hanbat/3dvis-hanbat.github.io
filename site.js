@@ -45,6 +45,7 @@ function record(item, base) {
   const tags = element('div', '', 'publication-tags');
   tags.append(element('span', item.type, 'tag'));
   for (const resource of item.links) {
+    if (resource.label === 'Paper') continue;
     const link = element('a', resource.label);
     link.href = resource.url;
     link.setAttribute('aria-label', resource.label + ' · ' + item.title);

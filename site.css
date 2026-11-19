@@ -161,8 +161,14 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .term h2 { font-size: 1.27rem; margin-bottom: .8rem; }
 .term li { display: flex; gap: .7rem; justify-content: space-between; align-items: baseline; padding-block: .55rem; border-top: 1px solid var(--line); }
 .term code { font-family: inherit; font-variant-numeric: tabular-nums; color: var(--accent); font-size: .85rem; white-space: nowrap; }
-.publication-controls { padding: 20px; background: var(--surface); border: 1px solid var(--line); border-radius: 13px; }
-.publication-scopes { margin-bottom: 14px; }
+.publication-controls { padding: 20px; background: var(--surface); border: 1px solid var(--line); border-radius: 13px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.publication-controls .chips { margin: 0; align-items: center; padding: 5px; border: 1px solid var(--line); border-radius: 10px; }
+.publication-controls .chips button { border-radius: 6px; }
+@media (max-width: 640px) {
+  .publication-controls { gap: 6px; }
+  .publication-controls .chips { gap: 2px; padding: 3px; }
+  .publication-controls .chips button { padding: .35rem .36rem; }
+}
 .chips { display: flex; flex-wrap: wrap; gap: 7px; margin-top: .35rem; }
 .chips button { background: var(--panel); color: var(--ink); padding: .33rem .72rem; border: 1px solid var(--line); border-radius: 30px; font-size: .88rem; font-weight: 650; }
 .chips button:hover { color: var(--accent); border-color: var(--accent); }
