@@ -115,6 +115,11 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .home-bottom { display: grid; grid-template-columns: 1.55fr 1fr; align-items: start; gap: 36px; }
 .news-list,.student-grid,.term ul { margin: 0; padding: 0; list-style: none; }
 .news-list li { display: grid; grid-template-columns: 78px 1fr; align-items: baseline; gap: 1rem; padding-block: 10px; border-bottom: 1px solid var(--line); }
+.news-heading-link { color: var(--ink); text-underline-offset: .18em; }
+.news-heading-link:hover { color: var(--accent); }
+.news-archive li { padding-block: 15px; }
+.news-archive h2 { font-size: 1.1rem; }
+.news-archive p { margin-top: .25rem; color: var(--muted); }
 .news-list time { color: var(--accent); font-weight: 700; font-size: .9rem; }
 .callout { padding: 24px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; }
 .callout h2 { font-size: 1.25rem; }
