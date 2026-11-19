@@ -1,7 +1,7 @@
-/* Korean glyphs used by the current course and project titles. */
+/* Korean glyphs used by current titles and student names. */
 @font-face {
   font-family: "Noto Sans KR";
-  src: url("./noto-sans-kr.woff2") format("woff2");
+  src: url("./noto-sans-kr.woff2?v=2") format("woff2");
   font-style: normal;
   font-weight: 400 800;
   font-display: swap;
@@ -121,7 +121,6 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .page-heading { padding-bottom: 31px; margin-bottom: 31px; border-bottom: 1px solid var(--line); }
 .page-heading .eyebrow { margin-bottom: .55rem; }
 .page-heading h1 { font-size: clamp(2.55rem,6vw,4.7rem); letter-spacing: -.04em; }
-.page-heading > p:last-child { margin-top: .9rem; max-width: 46rem; color: var(--muted); word-break: keep-all; }
 .project-section,.team-section { margin-top: 39px; }
 .project-section > h2,.subhead { margin-bottom: .9rem; font-size: 1.38rem; }
 .callout.project-section > h2 { margin-bottom: 0; }
@@ -135,14 +134,16 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .profile p + p { margin-top: .6rem; }
 .inline-links { display: flex; flex-wrap: wrap; gap: .55rem 1rem; margin-top: .8rem; font-weight: 650; font-size: .9rem; }
 .profile details { margin-top: .9rem; }
-.profile summary { cursor: pointer; color: var(--accent); font-size: .85rem; font-weight: 750; letter-spacing: .015em; }
+.profile summary { cursor: pointer; color: var(--accent); font-size: 1rem; font-weight: 750; letter-spacing: .015em; }
 .profile-records { list-style: none; padding: 0; padding-inline-start: 1.25rem; margin: .2rem 0 1.12rem; }
 .profile-records li { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .15rem 1rem; padding-block: .55rem; }
 .profile-records li + li { border-top: 1px solid var(--line); }
 .profile-date { margin-left: auto; color: var(--muted); font-size: .9rem; white-space: nowrap; }
 .student-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; }
 .student-card { display: flex; gap: .85rem; align-items: center; padding: .85rem 1rem; }
-.student-card p { color: var(--muted); font-size: .88rem; margin-top: .2rem; }
+.student-card p, .student-name-ko { color: var(--muted); font-size: .88rem; }
+.student-card p { margin-top: .2rem; }
+.student-name-ko { margin-inline-start: .25em; font-weight: 400; letter-spacing: normal; white-space: nowrap; }
 .monogram { display: grid; place-items: center; flex: 0 0 42px; height: 42px; border-radius: 50%; color: var(--accent); background: var(--accent-panel); font-size: 1rem; font-weight: 750; }
 .term-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px; }
 .term { padding: 22px; }
