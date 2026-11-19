@@ -107,9 +107,13 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .project-section,.team-section { margin-top: 39px; }
 .project-section > h2,.subhead { margin-bottom: .9rem; font-size: 1.38rem; }
 .callout.project-section > h2 { margin-bottom: 0; }
-.profile { display: grid; grid-template-columns: minmax(13rem, .85fr) 1.65fr; gap: clamp(20px,4vw,52px); padding: clamp(19px,4vw,35px); }
+.profile { padding: clamp(19px,4vw,35px); }
+.profile-header { display: flex; align-items: center; gap: clamp(12px,3vw,30px); }
+.profile-photo { flex: 0 0 auto; width: clamp(74px,20vw,148px); height: auto; border: 1px solid var(--line); border-radius: 10px; }
+.profile-header h3 + p { margin-top: .45rem; }
+.profile-bio { margin-top: clamp(18px,3vw,28px); padding-top: clamp(16px,2.75vw,24px); border-top: 1px solid var(--line); }
 .profile h3 { font-size: 2.1rem; }
-.profile .profile-en { font-weight: 700; color: var(--muted); margin-bottom: .5rem; }
+
 .profile p + p { margin-top: .6rem; }
 .inline-links { display: flex; flex-wrap: wrap; gap: .55rem 1rem; margin-top: .8rem; font-weight: 650; font-size: .9rem; }
 .profile details { margin-top: .9rem; }
@@ -167,7 +171,7 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
  .hero-copy { margin-top: 1rem; }
  .hero-actions { margin-top: 1.1rem; }
  .hero-art img { aspect-ratio: 1.52; object-fit: cover; }
- .research-grid,.term-grid,.home-bottom,.profile { grid-template-columns: 1fr; }
+ .research-grid,.term-grid,.home-bottom { grid-template-columns: 1fr; }
  .student-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
  .research-all { grid-template-columns: 1fr; }
  .footer-inner { flex-direction: column; gap: 12px; }
