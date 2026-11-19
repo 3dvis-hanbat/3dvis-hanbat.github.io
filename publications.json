@@ -1,0 +1,652 @@
+[
+  {
+    "title": "Visibility-Aware Multi-View Stereo by Surface Normal Weighting for Occlusion Robustness",
+    "authors": "Hyucksang Lee+, Seongmin Lee+, and Sanghoon Lee*",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 47, no. 9, Sep. 2025.",
+    "year": 2025,
+    "topic": "reconstruction",
+    "region": "international",
+    "type": "학술지",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/document/10994246"
+      },
+      {
+        "label": "데이터",
+        "url": "http://insight.yonsei.ac.kr/gnuboard/bbs/content.php?co_id=download_mvhuman"
+      },
+      {
+        "label": "프로젝트",
+        "url": "https://melung.github.io/"
+      },
+      {
+        "label": "코드",
+        "url": "https://github.com/melung/SnowMVSNet"
+      }
+    ]
+  },
+  {
+    "title": "3D Facial Shape Similarity with Deep Perceptual Representations",
+    "authors": "Seongmin Lee+, Jiwoo Kang+, and Sanghoon Lee*",
+    "venue": "ACM Transactions on Multimedia Computing Communications and Applications, vol. 21, no. 6, Jul. 2025.",
+    "year": 2025,
+    "topic": "face",
+    "region": "international",
+    "type": "학술지",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://dl.acm.org/doi/10.1145/3734874"
+      }
+    ]
+  },
+  {
+    "title": "DMESH: A Structure-Preserving Diffusion Model for 3D Mesh Denoising",
+    "authors": "Seongmin Lee, Suwoong Heo, and Sanghoon Lee*",
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems, vol. 36, no. 3, pp. 4385-4399, Mar. 2025.",
+    "year": 2025,
+    "topic": "mesh",
+    "region": "international",
+    "type": "학술지",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/document/10449446"
+      }
+    ]
+  },
+  {
+    "title": "3D-PSSIM: Projective Structural Similarity for 3D Mesh Quality Assessment Robust to Topological Irregularities",
+    "authors": "Seongmin Lee, Jiwoo Kang*, Sanghoon Lee*, Weisi Lin, and Alan Conrad Bovik",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 46, no. 12, pp. 9595-9611, Dec. 2024.",
+    "year": 2024,
+    "topic": "mesh",
+    "region": "international",
+    "type": "학술지",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/document/10584322"
+      }
+    ]
+  },
+  {
+    "title": "Stabilized Temporal 3D Face Alignment using Landmark Displacement Learning",
+    "authors": "Seongmin Lee, Hyunse Yoon, Sohyun Park, Sanghoon Lee, and Jiwoo Kang*",
+    "venue": "Electronics, vol. 12, no. 17, pp. 3735-3747, Sep. 2023.",
+    "year": 2023,
+    "topic": "face",
+    "region": "international",
+    "type": "학술지",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.mdpi.com/2079-9292/12/17/3735"
+      }
+    ]
+  },
+  {
+    "title": "Technical Consideration Towards Robust 3D Reconstruction with Multi-view Active Stereo Sensors",
+    "authors": "Mingyu Jang, Seongmin Lee, Jiwoo Kang*, and Sanghoon Lee*",
+    "venue": "Sensors, vol. 22, no. 11, pp. 4142-4157, May. 2022.",
+    "year": 2022,
+    "topic": "reconstruction",
+    "region": "international",
+    "type": "학술지",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.mdpi.com/1424-8220/22/11/4142"
+      }
+    ]
+  },
+  {
+    "title": "Competitive Learning of Facial Fitting and Synthesis using UV Energy",
+    "authors": "Jiwoo Kang, Seongmin Lee, and Sanghoon Lee*",
+    "venue": "IEEE Transactions on Systems, Man, and Cybernetics: Systems, vol. 52, no. 5, pp. 2858-2873, May. 2022.",
+    "year": 2022,
+    "topic": "face",
+    "region": "international",
+    "type": "학술지",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/document/9363627/"
+      }
+    ]
+  },
+  {
+    "title": "A Comparison and Evaluation of Stereo Matching on Active Stereo Images",
+    "authors": "Mingyu Jang+, Hyunse Yoon+, Seongmin Lee, Jiwoo Kang*, and Sanghoon Lee*",
+    "venue": "Sensors, vol. 22, no. 9, pp. 3332-3366, Apr. 2022.",
+    "year": 2022,
+    "topic": "reconstruction",
+    "region": "international",
+    "type": "학술지",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.mdpi.com/1424-8220/22/9/3332"
+      }
+    ]
+  },
+  {
+    "title": "Gradient Flow Evolution for 3D Fusion from a Single Depth Sensor",
+    "authors": "Jiwoo Kang, Seongmin Lee, Mingyu Jang, and Sanghoon Lee*",
+    "venue": "IEEE Transactions on Circuits and Systems for Video Technology, vol.32, no.4, pp. 2211-2225, Apr. 2022.",
+    "year": 2022,
+    "topic": "reconstruction",
+    "region": "international",
+    "type": "학술지",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/document/9456855/"
+      },
+      {
+        "label": "데이터",
+        "url": "http://insight.yonsei.ac.kr/gnuboard/bbs/content.php?co_id=download_rgbd_db"
+      }
+    ]
+  },
+  {
+    "title": "Domain Crossover Non-Rigid Registration for 3D Human Meshes",
+    "authors": "Kyungjune Lee, Seongjean Kim, Hoseok Tong, Hyucksang Lee, Seongmin Lee*, Weisi Lin, Ping An, and Sanghoon Lee*",
+    "venue": "ACM International Conference on Multimedia (ACM MM 2025), Dublin, Ireland, 27-31 Oct. 2025.",
+    "year": 2025,
+    "topic": "mesh",
+    "region": "international",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://dl.acm.org/doi/10.1145/3746027.3754705"
+      },
+      {
+        "label": "코드",
+        "url": "https://github.com/naive2kj90/DCNRR"
+      }
+    ]
+  },
+  {
+    "title": "InViTe: Individual Virtual Transfer for Personalized 3D Face Generation System",
+    "authors": "Mingyu Jang+, Kyungjune Lee+, Seongmin Lee, Hoseok Tong, Juwan Chung, Yusung Ro, and Sanghoon Lee*",
+    "venue": "International Joint Conference on Artificial Intelligence (IJCAI 2024), Demo Track, Jeju, Korea, 3-8 Aug. 2024.",
+    "year": 2024,
+    "topic": "face",
+    "region": "international",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.ijcai.org/proceedings/2024/1008"
+      }
+    ]
+  },
+  {
+    "title": "AVIN-Chat: An Audio-Visual Interactive Chatbot System with Emotional State Tuning",
+    "authors": "Chanhyuk Park+, Jungbin Cho+, Junwan Kim+, Seongmin Lee, Jungsu Kim, and Sanghoon Lee*",
+    "venue": "International Joint Conference on Artificial Intelligence (IJCAI 2024), Demo Track, Jeju, Korea, 3-8 Aug. 2024.",
+    "year": 2024,
+    "topic": "media",
+    "region": "international",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.ijcai.org/proceedings/2024/1027"
+      }
+    ]
+  },
+  {
+    "title": "Speech-driven Emotional 3D Talking Face Animation using Emotional Embeddings",
+    "authors": "Seongmin Lee, Jeonghaeng Lee, Hyewon Song, and Sanghoon Lee*",
+    "venue": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024), Seoul, Korea, 14-19 Apr. 2024.",
+    "year": 2024,
+    "topic": "face",
+    "region": "international",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/document/10446842/"
+      }
+    ]
+  },
+  {
+    "title": "Fusing Explicit and Implicit Flow for Optical Flow Estimation",
+    "authors": "Hyunse Yoon, Seongmin Lee, and Sanghoon Lee*",
+    "venue": "IEEE International Conference on Image Processing (ICIP 2023), Kuala Lumpur, Malaysia, 8-11 Oct. 2023.",
+    "year": 2023,
+    "topic": "vision",
+    "region": "international",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/document/10222398/"
+      }
+    ]
+  },
+  {
+    "title": "Video-based Stabilized 3D Face Alignment using Temporal Multi-Discrimination",
+    "authors": "Seongmin Lee+, Hyunse Yoon+, Jiwoo Kang, Jungsu Kim, Jiwan Son, Jungwoo Huh, and Sanghoon Lee*",
+    "venue": "IEEE Workshop on Multimedia Signal Processing (MMSP 2023), Poitiers, France, 27-29 Sep. 2023.",
+    "year": 2023,
+    "topic": "face",
+    "region": "international",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/document/10337645"
+      }
+    ]
+  },
+  {
+    "title": "Video-based Face Reconstruction with Landmark Displacement Learning",
+    "authors": "Seongmin Lee+, Sohyun Park+, Hyunse Yoon, Sanghoon Lee, and Jiwoo Kang*",
+    "venue": "International Conference on Multimedia Information Technology and Applications (MITA 2023), Ostrava, Czech, 11-14 Jul. 2023. (Best Paper Award)",
+    "year": 2023,
+    "topic": "face",
+    "region": "international",
+    "type": "학술대회",
+    "links": []
+  },
+  {
+    "title": "FaceClone: Interactive Facial Shape and Motion Cloning System using Multi-View images",
+    "authors": "Kyungjune Lee, Jeonghaeng Lee, Hyucksang Lee, Mingyu Jang, Seongmin Lee, and Sanghoon Lee*",
+    "venue": "IEEE International Conference on Multimedia and Expo Workshops  (ICMEW 2023), Brisbane, Australia, 10-14 Jul. 2023.",
+    "year": 2023,
+    "topic": "face",
+    "region": "international",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/document/10222385"
+      }
+    ]
+  },
+  {
+    "title": "Region Adaptive Self-Attention for an Accurate Facial Emotion Recognition",
+    "authors": "Seongmin Lee+, Jeonghaeng Lee+, Minsik Kim, and Sanghoon Lee*",
+    "venue": "Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC 2022), Chiang Mai, Thailand, 7-10 Nov. 2022.",
+    "year": 2022,
+    "topic": "face",
+    "region": "international",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/document/9980100/"
+      }
+    ]
+  },
+  {
+    "title": "Automated Pose Data Construction System for Markerless Human Motion Capture System",
+    "authors": "Uihyeon Jo, Seongmin Lee, Hyunse Yoon, Seongjean Kim, Taewan Kim, Sanghoon Lee*",
+    "venue": "International Conference on Multimedia Information Technology and Applications (MITA 2022), Jeju, Korea, 5-7 Jul. 2022.",
+    "year": 2022,
+    "topic": "vision",
+    "region": "international",
+    "type": "학술대회",
+    "links": []
+  },
+  {
+    "title": "Checkerboard Corner Localization Accelerated with Deep False Detection for Multi-camera Calibration",
+    "authors": "Jiwoo Kang, Hyunse Yoon, Seongmin Lee, and Sanghoon Lee*",
+    "venue": "Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC 2021), Tokyo, Japan, 14-17 Dec. 2021.",
+    "year": 2021,
+    "topic": "vision",
+    "region": "international",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/document/9689595/"
+      }
+    ]
+  },
+  {
+    "title": "Deep Chessboard Corner Detection using Multi-task Learning",
+    "authors": "Hyunse Yoon, Seongmin Lee, Jiwoo Kang, and Sanghoon Lee*",
+    "venue": "IEEE Workshop on Multimedia Signal Processing (MMSP 2021), Tampere, Finland, 6-8 Oct. 2021.",
+    "year": 2021,
+    "topic": "vision",
+    "region": "international",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/document/9733619/"
+      }
+    ]
+  },
+  {
+    "title": "WarpingFusion: Accurate Multi-view TSDF Fusion with Local Perspective Warp",
+    "authors": "Jiwoo Kang, Seongmin Lee, Mingyu Jang, Hyunse Yoon, and Sanghoon Lee*",
+    "venue": "IEEE International Conference on Image Processing (ICIP 2021), Anchorage, Alaska, USA, 19-22 Sep. 2021.",
+    "year": 2021,
+    "topic": "reconstruction",
+    "region": "international",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/document/9506166"
+      }
+    ]
+  },
+  {
+    "title": "Active Stereo Matching Benchmark for 3D Reconstruction using Multi-view Depths",
+    "authors": "Mingyu Jang, Seongmin Lee, Jiwoo Kang, and Sanghoon Lee*",
+    "venue": "IEEE International Conference on Signal and Image Processing Applications (ICSIPA 2021), Virtual Conference, 13-15 Sep. 2021.",
+    "year": 2021,
+    "topic": "reconstruction",
+    "region": "international",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/document/9576787"
+      }
+    ]
+  },
+  {
+    "title": "Sparse Checkerboard Corner Detection from Global Perspective",
+    "authors": "Jiwoo Kang, Hyunse Yoon, Seongmin Lee, and Sanghoon Lee*",
+    "venue": "IEEE International Conference on Signal and Image Processing Applications (ICSIPA 2021), Virtual Conference, 13-15 Sep. 2021. (Best Paper Award)",
+    "year": 2021,
+    "topic": "vision",
+    "region": "international",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/document/9576808"
+      }
+    ]
+  },
+  {
+    "title": "Image Inpainting using Weighted Mask Convolution",
+    "authors": "Jiwoo Kang, Seongmin Lee, Suwoong Heo, and Sanghoon Lee*",
+    "venue": "Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC 2020), Auckland, New Zealand, 7-10 Dec. 2020.",
+    "year": 2020,
+    "topic": "media",
+    "region": "international",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/document/9306435"
+      }
+    ]
+  },
+  {
+    "title": "UV Completion with Self-referenced Discrimination",
+    "authors": "Jiwoo Kang+, Seongmin Lee+, and Sanghoon Lee*",
+    "venue": "Eurographics (EG 2020), Short, Norrkoping, Sweden, 25-29 May. 2020.",
+    "year": 2020,
+    "topic": "face",
+    "region": "international",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://diglib.eg.org/server/api/core/bitstreams/fbc4ad3b-bf99-4120-a89d-249d8d7901eb/content"
+      }
+    ]
+  },
+  {
+    "title": "Physical Parameter Prediction by Embedding Human Perceptual Parameter for 3D Garment Modeling",
+    "authors": "Seongmin Lee, Woojae Kim, Sewoong Ahn, Jaekyung Kim, and Sanghoon Lee*",
+    "venue": "Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC 2019), Lanzhou, China, 18-21 Nov. 2019.",
+    "year": 2019,
+    "topic": "mesh",
+    "region": "international",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/abstract/document/9023235"
+      }
+    ]
+  },
+  {
+    "title": "Dictionary-based Compression Type Classification using a CNN Architecture",
+    "authors": "Hyewon Song, Beom Kwon, Seongmin Lee, and Sanghoon Lee*",
+    "venue": "Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC 2019), Lanzhou, China, 18-21 Nov. 2019.",
+    "year": 2019,
+    "topic": "vision",
+    "region": "international",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/document/9023258"
+      }
+    ]
+  },
+  {
+    "title": "A Deep Cybersickness Predictor Based on Brain Signal Analysis for Virtual Reality Content",
+    "authors": "Jinwoo Kim, Woojae Kim, Heeseok Oh, Seongmin Lee, and Sanghoon Lee*",
+    "venue": "IEEE/CVF International Conference on Computer Vision (ICCV 2019), Seoul, Korea, 27-2 Oct.-Nov. 2019.",
+    "year": 2019,
+    "topic": "media",
+    "region": "international",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://ieeexplore.ieee.org/document/9010856"
+      }
+    ]
+  },
+  {
+    "title": "Personalized Speech-Driven Emotional 3D Talking Face Animation via Context–Emotion Decoupling",
+    "authors": "이성민*",
+    "venue": "Journal of Multimedia Information System (JMIS), 제 13권, 제 1호, 2026년 3월.",
+    "year": 2026,
+    "topic": "face",
+    "region": "domestic",
+    "type": "학술지",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.jmis.org/archive/view_article?pid=jmis-13-1-1"
+      }
+    ]
+  },
+  {
+    "title": "Temporal Facial Alignment with Triple Discriminators",
+    "authors": "이성민, 윤현세, 이상훈, 강지우*",
+    "venue": "Journal of Multimedia Information System (JMIS), 제 10권, 제 2호, 2023년 6월.",
+    "year": 2023,
+    "topic": "face",
+    "region": "domestic",
+    "type": "학술지",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.jmis.org/archive/view_article?pid=jmis-10-2-101"
+      }
+    ]
+  },
+  {
+    "title": "정교한 3D Gaussian 편집을 위한 단이 라벨 할당 및 경계 보정",
+    "authors": "고재은, 이성민*, 강지우*",
+    "venue": "한국멀티미디어학회 추계학술발표대회, 2025년 11월.",
+    "year": 2025,
+    "topic": "reconstruction",
+    "region": "domestic",
+    "type": "학술대회",
+    "links": []
+  },
+  {
+    "title": "생성적 적대 신경을 이용한 텍스트-이미지 생성 기술",
+    "authors": "전유채, 이성민*, 강지우*",
+    "venue": "한국멀티미디어학회 추계학술발표대회, 2025년 5월.",
+    "year": 2025,
+    "topic": "media",
+    "region": "domestic",
+    "type": "학술대회",
+    "links": []
+  },
+  {
+    "title": "Deepstream과 가중치 가지치기를 활용한 사람 자세추정 어플리케이션 가속화에 대한 연구",
+    "authors": "이혁상, 허수웅, 이성민, 조의현, 이상훈*",
+    "venue": "한국통신학회 동계종합학술발표회, 2023년 2월.",
+    "year": 2023,
+    "topic": "vision",
+    "region": "domestic",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11227525"
+      }
+    ]
+  },
+  {
+    "title": "유니티 엔진과 키넥트를 활용한 실시간 아바타 모델 구현",
+    "authors": "장민규, 이경준, 박재성, 이성민, 최성화, 이상훈*",
+    "venue": "한국통신학회 동계종합학술발표회, 2020년 2월.",
+    "year": 2020,
+    "topic": "face",
+    "region": "domestic",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09346730"
+      }
+    ]
+  },
+  {
+    "title": "심층 신경망과 서포트 벡터 머신을 이용한 고속 화자 인식에 관한 연구",
+    "authors": "이경준, 이성민, 최성화, 이준규, 이상훈*",
+    "venue": "한국통신학회 동계종합학술발표회, 2019년 1월.",
+    "year": 2019,
+    "topic": "media",
+    "region": "domestic",
+    "type": "학술대회",
+    "links": [
+      {
+        "label": "원문",
+        "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE08003733"
+      }
+    ]
+  },
+  {
+    "title": "감성적 음성 기반 캐릭터 얼굴 및 머리 모션 생성시스템 및 그를 위한 방법",
+    "authors": "이성민",
+    "venue": "출원번호 10-2026-0003957, 2026년 1월 9일",
+    "year": 2026,
+    "topic": "face",
+    "region": "domestic",
+    "type": "특허",
+    "links": []
+  },
+  {
+    "title": "3차원 메쉬 노이즈 제거 방법 및 그 시스템",
+    "authors": "이상훈, 이성민",
+    "venue": "출원번호 10-2024-0114838, 2024년 8월 27일",
+    "year": 2024,
+    "topic": "mesh",
+    "region": "domestic",
+    "type": "특허",
+    "links": []
+  },
+  {
+    "title": "3D 얼굴 정렬을 이용한 얼굴 이미지 생성 장치 및 방법",
+    "authors": "이상훈, 손지완, 이성민, 윤현세",
+    "venue": "출원번호 10-2023-0168747, 2023년 11월 29일",
+    "year": 2023,
+    "topic": "face",
+    "region": "domestic",
+    "type": "특허",
+    "links": []
+  },
+  {
+    "title": "현실감을 보존하는 콘텐츠 적응형 가상 현실 피로도 저감 방법 및 이를 이용한 시스템",
+    "authors": "이상훈, 이정행, 이성민, 김진우",
+    "venue": "등록번호 10-2678893, 2024년 6월 24일",
+    "year": 2024,
+    "topic": "media",
+    "region": "domestic",
+    "type": "특허",
+    "links": []
+  },
+  {
+    "title": "사영 공간에서의 구조적 유사성을 이용한 3차원 매쉬 퀄리티 평가 방법, 이를 수행하는 장치 및 컴퓨터 프로그램",
+    "authors": "이상훈, 이성민, 강지우",
+    "venue": "출원번호 10-2022-0033809, 2022년 3월 18일",
+    "year": 2022,
+    "topic": "mesh",
+    "region": "domestic",
+    "type": "특허",
+    "links": []
+  },
+  {
+    "title": "멀티뷰 심층 표현을 사용한 3차원 얼굴 유사성 평가 방법 및 장치",
+    "authors": "이상훈, 강지우, 이성민",
+    "venue": "등록번호 10-2705532, 2024년 9월 5일",
+    "year": 2024,
+    "topic": "face",
+    "region": "domestic",
+    "type": "특허",
+    "links": []
+  },
+  {
+    "title": "단일 심도 카메라를 이용한 3차원 복원 방법 및 장치",
+    "authors": "이상훈, 이성민, 강지우",
+    "venue": "등록번호 10-2483354, 2022년 12월 27일",
+    "year": 2022,
+    "topic": "reconstruction",
+    "region": "domestic",
+    "type": "특허",
+    "links": []
+  },
+  {
+    "title": "로컬 퍼스펙티브 와핑을 이용한 멀티-뷰 볼륨메트릭 합성 방법 및 장치",
+    "authors": "이상훈, 이성민, 강지우",
+    "venue": "등록번호 10-2556057, 2023월 7월 11일",
+    "year": 2023,
+    "topic": "reconstruction",
+    "region": "domestic",
+    "type": "특허",
+    "links": []
+  },
+  {
+    "title": "얼굴 이미지 색상 합성 장치 및 방법",
+    "authors": "이상훈, 강지우, 이성민",
+    "venue": "등록번호 10-2358854, 2022년 1월 28일",
+    "year": 2022,
+    "topic": "face",
+    "region": "domestic",
+    "type": "특허",
+    "links": []
+  },
+  {
+    "title": "경쟁적 학습을 이용한 3차원 얼굴 이미지 합성 장치 및 방법",
+    "authors": "이상훈 강지우, 이성민",
+    "venue": "등록번호 10-2422822, 2022년 7월 14일",
+    "year": 2022,
+    "topic": "face",
+    "region": "domestic",
+    "type": "특허",
+    "links": []
+  },
+  {
+    "title": "합성곱 신경망 기반의 스테레오스코픽 이미지 화질 평가 방법 및 장치",
+    "authors": "이상훈, 이성민",
+    "venue": "출원번호 10-2019-0168080, 2019년 12월 16일",
+    "year": 2019,
+    "topic": "mesh",
+    "region": "domestic",
+    "type": "특허",
+    "links": []
+  }
+]
