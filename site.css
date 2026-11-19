@@ -135,6 +135,7 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .project-section,.team-section { margin-top: 39px; }
 .project-section > h2,.subhead { margin-bottom: .9rem; font-size: 1.38rem; }
 .project-section > .callout + .callout { margin-top: 12px; }
+.project-list { background: transparent; }
 .project-list article + article { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--line); }
 .project-list p { margin-block-end: 0; }
 .callout.project-section > h2 { margin-bottom: 0; }
