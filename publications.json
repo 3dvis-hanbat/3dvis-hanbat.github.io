@@ -479,12 +479,17 @@
     "topic": "media",
     "region": "domestic",
     "type": "Conference",
-    "links": []
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://d2j16w31g89z0j.cloudfront.net/site/2026f/abs/0075-GRHIF.pdf"
+      }
+    ]
   },
   {
     "title": "스케치 조건화를 통한 구조-스타일 분리 기반 3D 키캡 생성 및 품질 개선",
     "authors": "전현수+, 문서영+, 이성민*",
-    "venue": "제7회 한국 인공지능 학술대회, 2026년 9월 29일–10월 2일.",
+    "venue": "한국통신학회 제7회 한국 인공지능 학술대회, 2026년 9–10월.",
     "year": 2026,
     "topic": "mesh",
     "region": "domestic",
@@ -495,7 +500,7 @@
   {
     "title": "Sparse-view 3D Gaussian Splatting에서 학습 중 시점 간 일관성 가지치기를 통한 화질 개선",
     "authors": "전현수, 이성민",
-    "venue": "제7회 한국 인공지능 학술대회, 2026년 9월 29일–10월 2일.",
+    "venue": "한국통신학회 제7회 한국 인공지능 학술대회, 2026년 9–10월.",
     "year": 2026,
     "topic": "reconstruction",
     "region": "domestic",
