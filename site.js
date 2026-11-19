@@ -62,13 +62,12 @@ function record(item, base) {
 }
 
 async function loadPublications() {
-  const type = document.getElementById('publication-type');
-  const order = document.getElementById('publication-sort');
   const count = document.getElementById('publication-count');
-  const reset = document.getElementById('publication-reset');
   const scopeButtons = [...document.querySelectorAll('#publication-scopes button')];
+  const typeButtons = [...document.querySelectorAll('#publication-types button')];
   const source = new URL(list.dataset.source, location.href);
   let scope = 'international';
+  let type = '';
   let items;
   try {
     const response = await fetch(source);
@@ -83,37 +82,36 @@ async function loadPublications() {
   }
   function update() {
     const scoped = items.filter(item => item.region === scope);
-    const filtered = scoped.filter(item => !type.value || item.type === type.value);
+    const filtered = scoped.filter(item => !type || item.type === type);
     const byYear = new Map();
     for (const item of filtered) {
       if (!byYear.has(item.year)) byYear.set(item.year, []);
       byYear.get(item.year).push(item);
     }
-    const years = [...byYear.keys()].sort((a, b) => order.value === 'old' ? a - b : b - a);
+    const years = [...byYear.keys()].sort((a, b) => b - a);
     const sections = years.map(year => {
       const section = element('section', '', 'publication-group');
       section.append(element('h2', String(year)), ...byYear.get(year).map(item => record(item, source)));
       return section;
     });
     count.textContent = filtered.length + ' of ' + scoped.length + ' publications';
-    reset.hidden = !type.value && order.value === 'new';
     for (const button of scopeButtons) {
       button.setAttribute('aria-pressed', String(button.dataset.scope === scope));
     }
+    for (const button of typeButtons) {
+      button.setAttribute('aria-pressed', String(button.dataset.type === type));
+    }
     list.replaceChildren(...(sections.length ? sections : [element('p', 'No publications match this filter.', 'empty')]));
   }
-  for (const select of [type, order]) select.addEventListener('change', update);
   for (const button of scopeButtons) button.addEventListener('click', () => {
     if (scope === button.dataset.scope) return;
     scope = button.dataset.scope;
-    type.value = '';
+    type = '';
     update();
   });
-  reset.addEventListener('click', () => {
-    type.value = '';
-    order.value = 'new';
+  for (const button of typeButtons) button.addEventListener('click', () => {
+    type = button.dataset.type;
     update();
-    type.focus();
   });
   document.querySelector('.publication-controls').hidden = false;
   update();

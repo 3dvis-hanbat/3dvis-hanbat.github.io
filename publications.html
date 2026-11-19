@@ -7,9 +7,9 @@
   <meta name="theme-color" content="#fbfbfe">
   <title>Publications | 3DVis Lab · Hanbat National University</title>
   <link rel="icon" href="./logo.png" type="image/png">
-  <link rel="stylesheet" href="./site.css?v=publications-2">
+  <link rel="stylesheet" href="./site.css?v=publications-3">
   <script>try{if(localStorage.getItem('3dvis-theme')==='dark')document.documentElement.dataset.theme='dark'}catch{}</script>
-  <script src="./site.js?v=publications-2" defer></script>
+  <script src="./site.js?v=publications-3" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to main content</a>
@@ -28,15 +28,17 @@
           <button type="button" data-scope="international" aria-pressed="true">International</button>
           <button type="button" data-scope="domestic" aria-pressed="false">Domestic</button>
         </div>
-        <div class="control-grid">
-          <label>Type<select id="publication-type"><option value="">All</option><option>Journal</option><option>Conference</option><option>Patent</option></select></label>
-          <label>Sort by<select id="publication-sort"><option value="new">Newest first</option><option value="old">Oldest first</option></select></label>
+        <div class="chips" id="publication-types" role="group" aria-label="Publication type">
+          <button type="button" data-type="" aria-pressed="true">All</button>
+          <button type="button" data-type="Journal" aria-pressed="false">Journal</button>
+          <button type="button" data-type="Conference" aria-pressed="false">Conference</button>
+          <button type="button" data-type="Patent" aria-pressed="false">Patent</button>
         </div>
       </section>
-      <div class="results-header"><p id="publication-count" role="status">Loading publications…</p><button type="button" id="publication-reset" class="text-link" hidden>Reset filters</button></div>
+      <p class="publication-note">+ Equal contribution · * Corresponding author.</p>
+      <div class="results-header"><p id="publication-count" role="status">Loading publications…</p></div>
       <div id="publication-list" data-source="./publications.json?v=scope-1"></div>
       <noscript><p>Enable JavaScript to filter publications. The <a href="https://sites.google.com/view/3dvislab/publications">international publications</a> and <a href="https://sites.google.com/view/3dvislab/publications/domestic">domestic publications</a> are available on the previous site.</p></noscript>
-      <p class="publication-note">+ Equal contribution · * Corresponding author. Thumbnails illustrate research topics.</p>
     </div></main>
   <footer class="site-footer" id="contact">
     <div class="wrap footer-inner">
