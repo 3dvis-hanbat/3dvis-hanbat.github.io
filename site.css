@@ -1,7 +1,7 @@
 /* Korean glyphs used by current titles and student names. */
 @font-face {
   font-family: "Noto Sans KR";
-  src: url("./noto-sans-kr.woff2?v=3") format("woff2");
+  src: url("./noto-sans-kr.woff2?v=4") format("woff2");
   font-style: normal;
   font-weight: 400 800;
   font-display: swap;
@@ -162,11 +162,11 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .term li { display: flex; gap: .7rem; justify-content: space-between; align-items: baseline; padding-block: .55rem; border-top: 1px solid var(--line); }
 .term code { font-family: inherit; font-variant-numeric: tabular-nums; color: var(--accent); font-size: .85rem; white-space: nowrap; }
 .publication-controls { padding: 20px; background: var(--surface); border: 1px solid var(--line); border-radius: 13px; }
-.control-grid { display: grid; grid-template-columns: minmax(0,2.4fr) repeat(3,minmax(0,1fr)); gap: 12px; }
-.control-grid label,.topic-field legend { color: var(--muted); font-weight: 700; font-size: .9rem; }
-.control-grid input,.control-grid select { width: 100%; min-height: 43px; display: block; margin-top: .25rem; background: var(--page); color: var(--ink); border: 1px solid var(--line); border-radius: 7px; padding: .5rem .65rem; font-size: .93rem; }
+.control-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+.control-grid label { color: var(--muted); font-weight: 700; font-size: .9rem; }
+.control-grid select { width: 100%; min-height: 43px; display: block; margin-top: .25rem; background: var(--page); color: var(--ink); border: 1px solid var(--line); border-radius: 7px; padding: .5rem .65rem; font-size: .93rem; }
 .control-grid select { appearance: none; padding-right: 1.75rem; background-image: linear-gradient(45deg,transparent 50%,var(--muted) 50%),linear-gradient(135deg,var(--muted) 50%,transparent 50%); background-position: calc(100% - 13px) 52%,calc(100% - 8px) 52%; background-size: 5px 5px; background-repeat: no-repeat; }
-.topic-field { margin: 14px 0 0; padding: 0; border: 0; }
+.publication-scopes { margin-bottom: 14px; }
 .chips { display: flex; flex-wrap: wrap; gap: 7px; margin-top: .35rem; }
 .chips button { background: var(--panel); color: var(--ink); padding: .33rem .72rem; border: 1px solid var(--line); border-radius: 30px; font-size: .88rem; font-weight: 650; }
 .chips button:hover { color: var(--accent); border-color: var(--accent); }
@@ -209,8 +209,7 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
  .student-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
  .research-all { grid-template-columns: 1fr; }
  .footer-inner { flex-direction: column; gap: 12px; }
- .control-grid { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 8px; }
- .control-grid label:first-child { grid-column: 1/-1; }
+ .control-grid { gap: 8px; }
  .publication-controls { padding: 13px; }
  .publication-record { grid-template-columns: 85px minmax(0,1fr); gap: 10px; }
  .publication-record h3 { font-size: 1rem; }

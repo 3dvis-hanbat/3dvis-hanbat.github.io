@@ -26,7 +26,7 @@ function element(tag, text, className) {
   return el;
 }
 
-function record(item, topicName, base) {
+function record(item, base) {
   const article = element('article', '', 'publication-record');
   const thumb = element('img');
   thumb.src = new URL(item.thumbnail ?? item.topic + '.png', base).href;
@@ -43,30 +43,32 @@ function record(item, topicName, base) {
     title.replaceChildren(link);
   }
   const tags = element('div', '', 'publication-tags');
-  if (item.originalTitle) tags.append(element('span', 'Translated title', 'tag'));
-  tags.append(...[item.region === 'international' ? 'International' : 'Domestic', item.type, topicName].map(label => element('span', label, 'tag')));
+  tags.append(element('span', item.type, 'tag'));
   for (const resource of item.links) {
     const link = element('a', resource.label);
     link.href = resource.url;
     link.setAttribute('aria-label', resource.label + ' · ' + item.title);
     tags.append(link);
   }
-  content.append(title, element('p', item.authors), element('p', item.venue), tags);
+  const authors = element('p', item.authors);
+  const venue = element('p', item.venue);
+  if (item.region === 'domestic') {
+    if (/[가-힣]/.test(item.title)) title.lang = 'ko';
+    authors.lang = venue.lang = 'ko';
+  }
+  content.append(title, authors, venue, tags);
   article.append(thumb, content);
   return article;
 }
 
 async function loadPublications() {
-  const search = document.getElementById('publication-search');
-  const region = document.getElementById('publication-region');
   const type = document.getElementById('publication-type');
   const order = document.getElementById('publication-sort');
   const count = document.getElementById('publication-count');
   const reset = document.getElementById('publication-reset');
-  const topicButtons = [...document.querySelectorAll('#publication-topics button')];
-  const topics = new Map(topicButtons.map(button => [button.dataset.topic, button.textContent]));
+  const scopeButtons = [...document.querySelectorAll('#publication-scopes button')];
   const source = new URL(list.dataset.source, location.href);
-  let topic = '';
+  let scope = 'international';
   let items;
   try {
     const response = await fetch(source);
@@ -79,18 +81,9 @@ async function loadPublications() {
     list.append(original);
     return;
   }
-  const normalize = value => value.normalize('NFKC').toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
-  const searchable = items.map(item => ({
-    ...item, searchText: normalize([item.title, item.authors, item.venue, topics.get(item.topic), item.type, item.originalTitle, item.originalAuthors].join(' '))
-  }));
   function update() {
-    const terms = normalize(search.value).split(' ').filter(Boolean);
-    const filtered = searchable.filter(item =>
-      (!topic || item.topic === topic) &&
-      (!region.value || item.region === region.value) &&
-      (!type.value || item.type === type.value) &&
-      terms.every(term => item.searchText.includes(term))
-    );
+    const scoped = items.filter(item => item.region === scope);
+    const filtered = scoped.filter(item => !type.value || item.type === type.value);
     const byYear = new Map();
     for (const item of filtered) {
       if (!byYear.has(item.year)) byYear.set(item.year, []);
@@ -99,27 +92,28 @@ async function loadPublications() {
     const years = [...byYear.keys()].sort((a, b) => order.value === 'old' ? a - b : b - a);
     const sections = years.map(year => {
       const section = element('section', '', 'publication-group');
-      section.append(element('h2', String(year)), ...byYear.get(year).map(item => record(item, topics.get(item.topic), source)));
+      section.append(element('h2', String(year)), ...byYear.get(year).map(item => record(item, source)));
       return section;
     });
-    count.textContent = filtered.length + ' of ' + items.length + ' publications';
-    reset.hidden = !(search.value || topic || region.value || type.value || order.value === 'old');
-    for (const button of topicButtons) {
-      button.setAttribute('aria-pressed', String(button.dataset.topic === topic));
+    count.textContent = filtered.length + ' of ' + scoped.length + ' publications';
+    reset.hidden = !type.value && order.value === 'new';
+    for (const button of scopeButtons) {
+      button.setAttribute('aria-pressed', String(button.dataset.scope === scope));
     }
-    list.replaceChildren(...(sections.length ? sections : [element('p', 'No results. Try a different search term or filter.', 'empty')]));
+    list.replaceChildren(...(sections.length ? sections : [element('p', 'No publications match this filter.', 'empty')]));
   }
-  search.addEventListener('input', update);
-  for (const select of [region, type, order]) select.addEventListener('change', update);
-  for (const button of topicButtons) button.addEventListener('click', () => {
-    topic = button.dataset.topic;
+  for (const select of [type, order]) select.addEventListener('change', update);
+  for (const button of scopeButtons) button.addEventListener('click', () => {
+    if (scope === button.dataset.scope) return;
+    scope = button.dataset.scope;
+    type.value = '';
     update();
   });
   reset.addEventListener('click', () => {
-    search.value = region.value = type.value = topic = '';
+    type.value = '';
     order.value = 'new';
     update();
-    search.focus();
+    type.focus();
   });
   document.querySelector('.publication-controls').hidden = false;
   update();
