@@ -164,6 +164,7 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .publication-controls { padding: 20px; background: var(--surface); border: 1px solid var(--line); border-radius: 13px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
 .publication-controls .chips { margin: 0; align-items: center; padding: 5px; border: 1px solid var(--line); border-radius: 10px; }
 .publication-controls .chips button { border-radius: 6px; }
+#publication-types { margin-inline-start: auto; }
 @media (max-width: 640px) {
   .publication-controls { gap: 6px; }
   .publication-controls .chips { gap: 2px; padding: 3px; }
