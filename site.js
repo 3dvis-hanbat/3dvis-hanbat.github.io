@@ -29,7 +29,7 @@ function element(tag, text, className) {
 function record(item, base) {
   const article = element('article', '', 'publication-record');
   const thumb = element('img');
-  thumb.src = new URL(item.thumbnail ?? item.topic + '.png', base).href;
+  thumb.src = new URL(item.thumbnail ?? 'publication-background.png', base).href;
   thumb.loading = 'lazy';
   thumb.alt = '';
   thumb.width = 300;

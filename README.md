@@ -9,7 +9,7 @@
 - 강의 `lectures.html`
 - 공통 스타일 및 테마 `site.css`, `site.js`
 
-저작물의 `topic`은 저작물 페이지 필터의 `data-topic` 값과 일치시킵니다. 기본 썸네일은 해당 주제의 PNG이며, 논문별 이미지는 게시 권한을 확인한 뒤 데이터의 `thumbnail`에 `` 저장소 최상위 폴더 기준 파일명을 넣어 지정할 수 있습니다. 논문 원문, 프로젝트, 코드, 데이터 링크는 `links`에 추가합니다.
+저작물별 이미지 파일명은 `publications.json`의 `thumbnail`에 저장소 최상위 폴더를 기준으로 지정합니다. 이미지가 없는 항목에는 공통 배경인 `publication-background.png`를 표시합니다. 논문 원문, 프로젝트, 코드, 데이터 링크는 `links`에 추가합니다.
 
 기존 [Google Sites](https://sites.google.com/view/3dvislab)의 공개 텍스트와 목록을 참고했습니다. 로고는 연구실에서 제공했으며, 3D 그래픽과 기본 썸네일은 이 사이트를 위해 제작했습니다.
 
