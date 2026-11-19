@@ -24,7 +24,8 @@
         "label": "Code",
         "url": "https://github.com/melung/SnowMVSNet"
       }
-    ]
+    ],
+    "thumbnail": "research-snowmvsnet.jpg"
   },
   {
     "title": "3D Facial Shape Similarity with Deep Perceptual Representations",
@@ -39,7 +40,8 @@
         "label": "Paper",
         "url": "https://dl.acm.org/doi/10.1145/3734874"
       }
-    ]
+    ],
+    "thumbnail": "pub-facial-shape-similarity.jpg"
   },
   {
     "title": "DMESH: A Structure-Preserving Diffusion Model for 3D Mesh Denoising",
@@ -54,7 +56,8 @@
         "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/10449446"
       }
-    ]
+    ],
+    "thumbnail": "research-dmesh.jpg"
   },
   {
     "title": "3D-PSSIM: Projective Structural Similarity for 3D Mesh Quality Assessment Robust to Topological Irregularities",
@@ -69,7 +72,8 @@
         "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/10584322"
       }
-    ]
+    ],
+    "thumbnail": "pub-3d-pssim.jpg"
   },
   {
     "title": "Stabilized Temporal 3D Face Alignment using Landmark Displacement Learning",
@@ -84,7 +88,8 @@
         "label": "Paper",
         "url": "https://www.mdpi.com/2079-9292/12/17/3735"
       }
-    ]
+    ],
+    "thumbnail": "research-face-tracking.jpg"
   },
   {
     "title": "Technical Consideration Towards Robust 3D Reconstruction with Multi-view Active Stereo Sensors",
@@ -99,7 +104,8 @@
         "label": "Paper",
         "url": "https://www.mdpi.com/1424-8220/22/11/4142"
       }
-    ]
+    ],
+    "thumbnail": "pub-active-stereo-reconstruction.jpg"
   },
   {
     "title": "Competitive Learning of Facial Fitting and Synthesis using UV Energy",
@@ -114,7 +120,8 @@
         "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9363627/"
       }
-    ]
+    ],
+    "thumbnail": "research-uvebgan.jpg"
   },
   {
     "title": "A Comparison and Evaluation of Stereo Matching on Active Stereo Images",
@@ -129,7 +136,8 @@
         "label": "Paper",
         "url": "https://www.mdpi.com/1424-8220/22/9/3332"
       }
-    ]
+    ],
+    "thumbnail": "pub-stereo-matching-comparison.jpg"
   },
   {
     "title": "Gradient Flow Evolution for 3D Fusion from a Single Depth Sensor",
@@ -148,7 +156,8 @@
         "label": "Dataset",
         "url": "http://insight.yonsei.ac.kr/gnuboard/bbs/content.php?co_id=download_rgbd_db"
       }
-    ]
+    ],
+    "thumbnail": "pub-gradient-flow-fusion.jpg"
   },
   {
     "title": "Domain Crossover Non-Rigid Registration for 3D Human Meshes",
@@ -167,7 +176,8 @@
         "label": "Code",
         "url": "https://github.com/naive2kj90/DCNRR"
       }
-    ]
+    ],
+    "thumbnail": "pub-domain-crossover-registration.jpg"
   },
   {
     "title": "InViTe: Individual Virtual Transfer for Personalized 3D Face Generation System",
@@ -182,7 +192,8 @@
         "label": "Paper",
         "url": "https://www.ijcai.org/proceedings/2024/1008"
       }
-    ]
+    ],
+    "thumbnail": "pub-invite.jpg"
   },
   {
     "title": "AVIN-Chat: An Audio-Visual Interactive Chatbot System with Emotional State Tuning",
@@ -197,7 +208,8 @@
         "label": "Paper",
         "url": "https://www.ijcai.org/proceedings/2024/1027"
       }
-    ]
+    ],
+    "thumbnail": "pub-avin-chat.jpg"
   },
   {
     "title": "Speech-driven Emotional 3D Talking Face Animation using Emotional Embeddings",
@@ -212,7 +224,8 @@
         "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/10446842/"
       }
-    ]
+    ],
+    "thumbnail": "research-sdetalk.jpg"
   },
   {
     "title": "Fusing Explicit and Implicit Flow for Optical Flow Estimation",
@@ -227,7 +240,8 @@
         "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/10222398/"
       }
-    ]
+    ],
+    "thumbnail": "pub-explicit-implicit-flow.jpg"
   },
   {
     "title": "Video-based Stabilized 3D Face Alignment using Temporal Multi-Discrimination",
@@ -242,7 +256,8 @@
         "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/10337645"
       }
-    ]
+    ],
+    "thumbnail": "pub-temporal-multi-discrimination.jpg"
   },
   {
     "title": "Video-based Face Reconstruction with Landmark Displacement Learning",
@@ -267,7 +282,8 @@
         "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/10222385"
       }
-    ]
+    ],
+    "thumbnail": "pub-faceclone.jpg"
   },
   {
     "title": "Region Adaptive Self-Attention for an Accurate Facial Emotion Recognition",
@@ -282,7 +298,8 @@
         "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9980100/"
       }
-    ]
+    ],
+    "thumbnail": "pub-facial-emotion-recognition.jpg"
   },
   {
     "title": "Automated Pose Data Construction System for Markerless Human Motion Capture System",
@@ -307,7 +324,8 @@
         "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9689595/"
       }
-    ]
+    ],
+    "thumbnail": "pub-checkerboard-localization.jpg"
   },
   {
     "title": "Deep Chessboard Corner Detection using Multi-task Learning",
@@ -322,7 +340,8 @@
         "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9733619/"
       }
-    ]
+    ],
+    "thumbnail": "pub-deep-chessboard-detection.jpg"
   },
   {
     "title": "WarpingFusion: Accurate Multi-view TSDF Fusion with Local Perspective Warp",
@@ -337,7 +356,8 @@
         "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9506166"
       }
-    ]
+    ],
+    "thumbnail": "pub-warpingfusion.jpg"
   },
   {
     "title": "Active Stereo Matching Benchmark for 3D Reconstruction using Multi-view Depths",
@@ -352,7 +372,8 @@
         "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9576787"
       }
-    ]
+    ],
+    "thumbnail": "pub-active-stereo-benchmark.jpg"
   },
   {
     "title": "Sparse Checkerboard Corner Detection from Global Perspective",
@@ -367,7 +388,8 @@
         "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9576808"
       }
-    ]
+    ],
+    "thumbnail": "pub-sparse-checkerboard.jpg"
   },
   {
     "title": "Image Inpainting using Weighted Mask Convolution",
@@ -382,7 +404,8 @@
         "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9306435"
       }
-    ]
+    ],
+    "thumbnail": "pub-weighted-mask-inpainting.jpg"
   },
   {
     "title": "UV Completion with Self-referenced Discrimination",
@@ -397,7 +420,8 @@
         "label": "Paper",
         "url": "https://diglib.eg.org/server/api/core/bitstreams/fbc4ad3b-bf99-4120-a89d-249d8d7901eb/content"
       }
-    ]
+    ],
+    "thumbnail": "pub-uv-completion.jpg"
   },
   {
     "title": "Physical Parameter Prediction by Embedding Human Perceptual Parameter for 3D Garment Modeling",
@@ -412,7 +436,8 @@
         "label": "Paper",
         "url": "https://ieeexplore.ieee.org/abstract/document/9023235"
       }
-    ]
+    ],
+    "thumbnail": "pub-garment-parameter-prediction.jpg"
   },
   {
     "title": "Dictionary-based Compression Type Classification using a CNN Architecture",
@@ -442,7 +467,8 @@
         "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9010856"
       }
-    ]
+    ],
+    "thumbnail": "pub-cybersickness-prediction.jpg"
   },
   {
     "title": "Personalized Speech-Driven Emotional 3D Talking Face Animation via Context–Emotion Decoupling",
@@ -457,7 +483,8 @@
         "label": "Paper",
         "url": "https://www.jmis.org/archive/view_article?pid=jmis-13-1-1"
       }
-    ]
+    ],
+    "thumbnail": "pub-personalized-emotional-face.jpg"
   },
   {
     "title": "Temporal Facial Alignment with Triple Discriminators",
@@ -472,7 +499,8 @@
         "label": "Paper",
         "url": "https://www.jmis.org/archive/view_article?pid=jmis-10-2-101"
       }
-    ]
+    ],
+    "thumbnail": "pub-triple-discriminators.jpg"
   },
   {
     "title": "정교한 3D Gaussian 편집을 위한 단이 라벨 할당 및 경계 보정",
@@ -482,7 +510,8 @@
     "topic": "reconstruction",
     "region": "domestic",
     "type": "Conference",
-    "links": []
+    "links": [],
+    "thumbnail": "pub-gaussian-editing.jpg"
   },
   {
     "title": "생성적 적대 신경을 이용한 텍스트-이미지 생성 기술",
@@ -492,7 +521,8 @@
     "topic": "media",
     "region": "domestic",
     "type": "Conference",
-    "links": []
+    "links": [],
+    "thumbnail": "pub-text-to-image-gan.jpg"
   },
   {
     "title": "Deepstream과 가중치 가지치기를 활용한 사람 자세추정 어플리케이션 가속화에 대한 연구",
