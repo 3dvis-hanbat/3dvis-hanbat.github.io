@@ -82,9 +82,7 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .hero > .eyebrow { grid-column: 1 / -1; }
 .hero .hero-intro .hero-copy { margin-top: 0; }
 @media (min-width: 641px) {
-  .hero-intro { margin-top: 1rem; text-align: end; }
-  .hero-intro .hero-copy { margin-inline-start: auto; }
-  .hero-intro .hero-fields { padding-inline-start: 0; list-style-position: inside; }
+  .hero-intro { margin-top: 1rem; }
   .hero-intro .hero-actions { justify-content: flex-end; }
 }
 .hero-fields { margin: .65rem 0 0; padding-inline-start: 1.3em; color: var(--ink); }
