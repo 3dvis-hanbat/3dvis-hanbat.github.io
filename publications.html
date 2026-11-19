@@ -9,7 +9,7 @@
   <link rel="icon" href="./logo.png" type="image/png">
   <link rel="stylesheet" href="./site.css">
   <script>try{if(localStorage.getItem('3dvis-theme')==='dark')document.documentElement.dataset.theme='dark'}catch{}</script>
-  <script src="./site.js" defer></script>
+  <script src="./site.js?v=en-1" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to main content</a>
@@ -33,7 +33,7 @@
         <fieldset class="topic-field"><legend>Research topic</legend><div id="publication-topics" class="chips"><button type="button" data-topic="" aria-pressed="true">All</button><button type="button" data-topic="reconstruction" aria-pressed="false">3D Reconstruction</button><button type="button" data-topic="mesh" aria-pressed="false">Meshes and Quality Assessment</button><button type="button" data-topic="face" aria-pressed="false">Faces and Avatars</button><button type="button" data-topic="media" aria-pressed="false">Multimodal AI</button><button type="button" data-topic="vision" aria-pressed="false">Computer Vision</button></div></fieldset>
       </section>
       <div class="results-header"><p id="publication-count" role="status">Loading publications…</p><button type="button" id="publication-reset" class="text-link" hidden>Reset filters</button></div>
-      <div id="publication-list" data-source="./publications.json"></div>
+      <div id="publication-list" data-source="./publications.json?v=en-1"></div>
       <noscript><p>Enable JavaScript to search and filter publications. The <a href="https://sites.google.com/view/3dvislab/publications">international publications</a> and <a href="https://sites.google.com/view/3dvislab/publications/domestic">domestic publications</a> are available on the previous site.</p></noscript>
       <p class="publication-note">+ Equal contribution · * Corresponding author. Thumbnails illustrate research topics. English translations of Korean titles are labeled.</p>
     </div></main>
