@@ -43,7 +43,9 @@ function record(item, base) {
     title.replaceChildren(link);
   }
   const tags = element('div', '', 'publication-tags');
-  tags.append(element('span', item.type, 'tag'));
+  const typeTag = element('span', item.type, 'tag');
+  typeTag.dataset.type = item.type;
+  tags.append(typeTag);
   for (const resource of item.links) {
     if (resource.label === 'Paper') continue;
     const link = element('a', resource.label);

@@ -165,15 +165,51 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .publication-controls .chips { margin: 0; align-items: center; padding: 5px; border: 1px solid var(--line); border-radius: 10px; }
 .publication-controls .chips button { border-radius: 6px; }
 #publication-types { margin-inline-start: auto; }
+.publications-page [data-type="Journal"] {
+  --type-fill: #e1f1fc;
+  --type-ink: #184e73;
+  --type-border: #a2cbe5;
+  --type-active: #235d83;
+}
+.publications-page [data-type="Conference"] {
+  --type-fill: #e4ebfc;
+  --type-ink: #294c87;
+  --type-border: #aabfe9;
+  --type-active: #355b9a;
+}
+.publications-page [data-type="Patent"] {
+  --type-fill: #eee7fa;
+  --type-ink: #59418c;
+  --type-border: #cabbeb;
+  --type-active: #67479a;
+}
+[data-theme="dark"] .publications-page [data-type="Journal"] {
+  --type-fill: #233c50;
+  --type-ink: #a8dcf9;
+  --type-border: #4f7492;
+  --type-active: #9fcef0;
+}
+[data-theme="dark"] .publications-page [data-type="Conference"] {
+  --type-fill: #2b3a5b;
+  --type-ink: #b5cdfd;
+  --type-border: #586e9b;
+  --type-active: #95b5f0;
+}
+[data-theme="dark"] .publications-page [data-type="Patent"] {
+  --type-fill: #3b2f54;
+  --type-ink: #dccaff;
+  --type-border: #75639a;
+  --type-active: #bca7ec;
+}
 @media (max-width: 640px) {
   .publication-controls { gap: 6px; }
   .publication-controls .chips { gap: 2px; padding: 3px; }
   .publication-controls .chips button { padding: .35rem .36rem; }
 }
 .chips { display: flex; flex-wrap: wrap; gap: 7px; margin-top: .35rem; }
-.chips button { background: var(--panel); color: var(--ink); padding: .33rem .72rem; border: 1px solid var(--line); border-radius: 30px; font-size: .88rem; font-weight: 650; }
-.chips button:hover { color: var(--accent); border-color: var(--accent); }
-.chips button[aria-pressed="true"] { color: var(--primary-fg); background: var(--accent); border-color: var(--accent); }
+.chips button { background: var(--type-fill, var(--panel)); color: var(--type-ink, var(--ink)); padding: .33rem .72rem; border: 1px solid var(--type-border, var(--line)); border-radius: 30px; font-size: .88rem; font-weight: 650; }
+.chips button:hover { color: var(--type-ink, var(--accent)); border-color: var(--type-active, var(--accent)); }
+.chips button[aria-pressed="true"] { color: var(--primary-fg); background: var(--type-active, var(--accent)); border-color: var(--type-active, var(--accent)); }
 .results-header { min-height: 52px; display: flex; gap: 1rem; justify-content: space-between; align-items: center; color: var(--muted); font-size: .9rem; }
 .publication-group h2 { margin-block: .6rem .65rem; font-size: 1.28rem; }
 .publication-group + .publication-group { margin-top: 28px; }
@@ -186,7 +222,7 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .publication-record p { margin-top: .28rem; font-size: .94rem; color: var(--muted); overflow-wrap: anywhere; }
 .publication-note { color: var(--muted); margin-top: 14px; font-size: .88rem; }
 .publication-tags { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .6rem; align-items: center; }
-.tag { padding: .08rem .48rem; border-radius: 6px; background: var(--panel); color: var(--accent); font-size: .79rem; font-weight: 700; }
+.tag { padding: .08rem .48rem; border-radius: 6px; background: var(--type-fill, var(--panel)); color: var(--type-ink, var(--accent)); font-size: .79rem; font-weight: 700; }
 .publication-tags a { margin-left: .24rem; font-size: .88rem; font-weight: 680; }
 .empty { padding: 24px; background: var(--panel); border-radius: 12px; color: var(--muted); }
 @media (max-width: 850px) {
