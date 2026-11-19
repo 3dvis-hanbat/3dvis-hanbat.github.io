@@ -166,10 +166,10 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .publication-controls .chips button { border-radius: 6px; }
 #publication-types { margin-inline-start: auto; }
 .publications-page [data-type="Journal"] {
-  --type-fill: #e1f1fc;
-  --type-ink: #184e73;
-  --type-border: #a2cbe5;
-  --type-active: #235d83;
+  --type-fill: #eee7fa;
+  --type-ink: #59418c;
+  --type-border: #cabbeb;
+  --type-active: #67479a;
 }
 .publications-page [data-type="Conference"] {
   --type-fill: #e4ebfc;
@@ -178,16 +178,16 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
   --type-active: #355b9a;
 }
 .publications-page [data-type="Patent"] {
-  --type-fill: #eee7fa;
-  --type-ink: #59418c;
-  --type-border: #cabbeb;
-  --type-active: #67479a;
+  --type-fill: #e1f1fc;
+  --type-ink: #184e73;
+  --type-border: #a2cbe5;
+  --type-active: #235d83;
 }
 [data-theme="dark"] .publications-page [data-type="Journal"] {
-  --type-fill: #233c50;
-  --type-ink: #a8dcf9;
-  --type-border: #4f7492;
-  --type-active: #9fcef0;
+  --type-fill: #3b2f54;
+  --type-ink: #dccaff;
+  --type-border: #75639a;
+  --type-active: #bca7ec;
 }
 [data-theme="dark"] .publications-page [data-type="Conference"] {
   --type-fill: #2b3a5b;
@@ -196,10 +196,10 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
   --type-active: #95b5f0;
 }
 [data-theme="dark"] .publications-page [data-type="Patent"] {
-  --type-fill: #3b2f54;
-  --type-ink: #dccaff;
-  --type-border: #75639a;
-  --type-active: #bca7ec;
+  --type-fill: #233c50;
+  --type-ink: #a8dcf9;
+  --type-border: #4f7492;
+  --type-active: #9fcef0;
 }
 @media (max-width: 640px) {
   .publication-controls { gap: 6px; }
