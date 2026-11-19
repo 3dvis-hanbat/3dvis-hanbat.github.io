@@ -28,7 +28,7 @@ function element(tag, text, className) {
 
 function record(item, base) {
   const article = element('article', '', 'publication-record');
-  const thumb = element('img');
+  const thumb = element('img', '', item.thumbnail ? '' : 'publication-placeholder');
   thumb.src = new URL(item.thumbnail ?? 'publication-background.png', base).href;
   thumb.loading = 'lazy';
   thumb.alt = '';

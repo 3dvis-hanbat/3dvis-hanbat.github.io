@@ -472,6 +472,38 @@
     "thumbnail": "pub-cybersickness-prediction.jpg"
   },
   {
+    "title": "세포주별 약물 반응 분석을 위한 유전자 발현 데이터 구조화",
+    "authors": "정현서, 정은주, 장채은, 이성민, 김은경",
+    "venue": "한국통신학회 추계종합학술발표회, 2026년 11월.",
+    "year": 2026,
+    "topic": "media",
+    "region": "domestic",
+    "type": "Conference",
+    "links": []
+  },
+  {
+    "title": "스케치 조건화를 통한 구조-스타일 분리 기반 3D 키캡 생성 및 품질 개선",
+    "authors": "전현수+, 문서영+, 이성민*",
+    "venue": "제7회 한국 인공지능 학술대회, 2026년 9월 29일–10월 2일.",
+    "year": 2026,
+    "topic": "mesh",
+    "region": "domestic",
+    "type": "Conference",
+    "links": [],
+    "thumbnail": "pub-sketch-keycap.jpg"
+  },
+  {
+    "title": "Sparse-view 3D Gaussian Splatting에서 학습 중 시점 간 일관성 가지치기를 통한 화질 개선",
+    "authors": "전현수, 이성민",
+    "venue": "제7회 한국 인공지능 학술대회, 2026년 9월 29일–10월 2일.",
+    "year": 2026,
+    "topic": "reconstruction",
+    "region": "domestic",
+    "type": "Conference",
+    "links": [],
+    "thumbnail": "pub-gaussian-view-pruning.jpg"
+  },
+  {
     "title": "Personalized Speech-Driven Emotional 3D Talking Face Animation via Context–Emotion Decoupling",
     "authors": "이성민*",
     "venue": "Journal of Multimedia Information System (JMIS), 제 13권, 제 1호, 2026년 3월.",
@@ -504,7 +536,7 @@
     "thumbnail": "pub-triple-discriminators.jpg"
   },
   {
-    "title": "정교한 3D Gaussian 편집을 위한 단이 라벨 할당 및 경계 보정",
+    "title": "정교한 3D Gaussian 편집을 위한 단일 라벨 할당 및 경계 보정",
     "authors": "고재은, 이성민*, 강지우*",
     "venue": "한국멀티미디어학회 추계학술발표대회, 2025년 11월.",
     "year": 2025,
@@ -517,7 +549,7 @@
   {
     "title": "생성적 적대 신경을 이용한 텍스트-이미지 생성 기술",
     "authors": "전유채, 이성민*, 강지우*",
-    "venue": "한국멀티미디어학회 추계학술발표대회, 2025년 5월.",
+    "venue": "한국멀티미디어학회 춘계학술발표대회, 2025년 5월.",
     "year": 2025,
     "topic": "media",
     "region": "domestic",
