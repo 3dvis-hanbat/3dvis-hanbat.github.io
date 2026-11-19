@@ -1,7 +1,7 @@
 /* Korean glyphs used by current titles and student names. */
 @font-face {
   font-family: "Noto Sans KR";
-  src: url("./noto-sans-kr.woff2?v=2") format("woff2");
+  src: url("./noto-sans-kr.woff2?v=3") format("woff2");
   font-style: normal;
   font-weight: 400 800;
   font-display: swap;
@@ -100,6 +100,9 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .research-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 18px; }
 .research-card,.feature-card,.term,.profile,.student-card { border: 1px solid var(--line); border-radius: 14px; background: var(--surface); overflow: hidden; }
 .research-card img,.feature-card img { width: 100%; height: auto; aspect-ratio: 2.24; object-fit: cover; }
+.research-figure { display: block; background: #fff; }
+.research-figure:focus-visible { outline-offset: -4px; }
+.research-figure img { aspect-ratio: 1.55; object-fit: contain; }
 .research-card > div,.feature-card > div { padding: 17px 18px 20px; }
 .research-card h2,.research-card h3,.feature-card h3 { font-size: 1.13rem; }
 .research-card h2 + p,.research-card h3 + p { color: var(--muted); font-size: .95rem; margin-top: .5rem; word-break: keep-all; }
