@@ -118,7 +118,7 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .inline-links { display: flex; flex-wrap: wrap; gap: .55rem 1rem; margin-top: .8rem; font-weight: 650; font-size: .9rem; }
 .profile details { margin-top: .9rem; }
 .profile summary { cursor: pointer; color: var(--accent); font-size: .85rem; font-weight: 750; letter-spacing: .055em; text-transform: uppercase; }
-.profile-records { list-style: none; padding: 0; margin: .2rem 0 1.12rem; }
+.profile-records { list-style: none; padding: 0; padding-inline-start: 1.25rem; margin: .2rem 0 1.12rem; }
 .profile-records li { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .15rem 1rem; padding-block: .55rem; }
 .profile-records li + li { border-top: 1px solid var(--line); }
 .profile-date { margin-left: auto; color: var(--muted); font-size: .9rem; white-space: nowrap; }
