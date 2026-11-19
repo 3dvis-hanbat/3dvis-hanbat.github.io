@@ -50,7 +50,7 @@
 }
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
-html { scroll-padding-top: 90px; }
+html { scroll-padding-top: 90px; scrollbar-gutter: stable; }
 body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; background: var(--page); color: var(--ink); font: 1rem/1.65 "Source Sans 3", "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; }
 main { flex: 1; }
 img { display: block; max-width: 100%; }
@@ -135,7 +135,7 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .project-section,.team-section { margin-top: 39px; }
 .project-section > h2,.subhead { margin-bottom: .9rem; font-size: 1.38rem; }
 .project-section > .callout + .callout { margin-top: 12px; }
-.project-list { background: #fff; color: #191b32; --muted: #565b73; }
+.project-list { background: var(--surface); }
 .project-list article + article { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--line); }
 .project-list p { margin-block-end: 0; }
 .callout.project-section > h2 { margin-bottom: 0; }
