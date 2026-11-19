@@ -5,8 +5,8 @@ const themeColor = document.querySelector('meta[name="theme-color"]');
 function syncTheme() {
   const dark = html.dataset.theme === 'dark';
   themeToggle.setAttribute('aria-pressed', String(dark));
-  themeToggle.setAttribute('aria-label', dark ? '라이트 테마로 전환' : '다크 테마로 전환');
-  themeToggle.title = dark ? '라이트 테마' : '다크 테마';
+  themeToggle.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
+  themeToggle.title = dark ? 'Light theme' : 'Dark theme';
   themeColor.content = dark ? '#141525' : '#fbfbfe';
 }
 syncTheme();
@@ -36,14 +36,15 @@ function record(item, topicName, base) {
   thumb.height = 188;
   const content = element('div');
   const title = element('h3', item.title);
-  const paper = item.links.find(link => link.label === '원문');
+  const paper = item.links.find(link => link.label === 'Paper');
   if (paper) {
     const link = element('a', item.title);
     link.href = paper.url;
     title.replaceChildren(link);
   }
   const tags = element('div', '', 'publication-tags');
-  tags.append(...[item.region === 'international' ? '국제' : '국내', item.type, topicName].map(label => element('span', label, 'tag')));
+  if (item.originalTitle) tags.append(element('span', 'Translated title', 'tag'));
+  tags.append(...[item.region === 'international' ? 'International' : 'Domestic', item.type, topicName].map(label => element('span', label, 'tag')));
   for (const resource of item.links) {
     const link = element('a', resource.label);
     link.href = resource.url;
@@ -72,15 +73,15 @@ async function loadPublications() {
     if (!response.ok) throw new Error(response.status);
     items = await response.json();
   } catch {
-    count.textContent = '저작물 목록을 불러오지 못했습니다.';
-    const original = element('a', '기존 저작물 페이지 열기');
+    count.textContent = 'Could not load the publications.';
+    const original = element('a', 'View publications on the previous site');
     original.href = 'https://sites.google.com/view/3dvislab/publications';
     list.append(original);
     return;
   }
   const normalize = value => value.normalize('NFKC').toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
   const searchable = items.map(item => ({
-    ...item, searchText: normalize([item.title, item.authors, item.venue, topics.get(item.topic), item.type].join(' '))
+    ...item, searchText: normalize([item.title, item.authors, item.venue, topics.get(item.topic), item.type, item.originalTitle, item.originalAuthors].join(' '))
   }));
   function update() {
     const terms = normalize(search.value).split(' ').filter(Boolean);
@@ -101,12 +102,12 @@ async function loadPublications() {
       section.append(element('h2', String(year)), ...byYear.get(year).map(item => record(item, topics.get(item.topic), source)));
       return section;
     });
-    count.textContent = filtered.length + '건 / 전체 ' + items.length + '건';
+    count.textContent = filtered.length + ' of ' + items.length + ' publications';
     reset.hidden = !(search.value || topic || region.value || type.value || order.value === 'old');
     for (const button of topicButtons) {
       button.setAttribute('aria-pressed', String(button.dataset.topic === topic));
     }
-    list.replaceChildren(...(sections.length ? sections : [element('p', '검색 결과가 없습니다. 검색어 또는 필터를 바꿔 보세요.', 'empty')]));
+    list.replaceChildren(...(sections.length ? sections : [element('p', 'No results. Try a different search term or filter.', 'empty')]));
   }
   search.addEventListener('input', update);
   for (const select of [region, type, order]) select.addEventListener('change', update);

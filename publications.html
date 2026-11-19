@@ -1,46 +1,46 @@
 <!doctype html>
-<html lang="ko" data-theme="light">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="3DVis Lab의 국내외 논문과 특허. 제목, 저자, 연구 주제로 검색할 수 있습니다.">
+  <meta name="description" content="Domestic and international papers and patents from 3DVis Lab. Search by title, author, or research topic.">
   <meta name="theme-color" content="#fbfbfe">
-  <title>저작물 | 3DVis Lab · 국립한밭대학교</title>
+  <title>Publications | 3DVis Lab · Hanbat National University</title>
   <link rel="icon" href="./logo.png" type="image/png">
   <link rel="stylesheet" href="./site.css">
   <script>try{if(localStorage.getItem('3dvis-theme')==='dark')document.documentElement.dataset.theme='dark'}catch{}</script>
   <script src="./site.js" defer></script>
 </head>
 <body>
-  <a class="skip" href="#main">본문 바로가기</a>
+  <a class="skip" href="#main">Skip to main content</a>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="brand" href="./" aria-label="3DVis Lab 홈"><img src="./logo.png" alt="" width="59" height="26"><span>3DVis Lab</span></a>
-      <nav class="primary-nav" aria-label="주메뉴"><a href="./research.html">연구분야</a><a href="./members.html">구성원</a><a href="./publications.html" aria-current="page">저작물</a><a href="./lectures.html">강의</a></nav>
-      <button class="theme-toggle" type="button" aria-label="다크 테마로 전환" aria-pressed="false"><span aria-hidden="true" class="theme-icon"></span></button>
+      <a class="brand" href="./" aria-label="3DVis Lab home"><img src="./logo.png" alt="" width="59" height="26"><span>3DVis Lab</span></a>
+      <nav class="primary-nav" aria-label="Main navigation"><a href="./research.html">Research</a><a href="./members.html">Members</a><a href="./publications.html" aria-current="page">Publications</a><a href="./lectures.html">Teaching</a></nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false"><span aria-hidden="true" class="theme-icon"></span></button>
     </div>
   </header>
   <main id="main">
     <div class="wrap inner-page publications-page">
-      <div class="page-heading"><p class="eyebrow">Publications</p><h1>저작물</h1><p>국내외 학술 논문과 특허를 모았습니다. 제목, 저자, 연구 주제로 찾아보세요.</p></div>
-      <section class="publication-controls" aria-label="저작물 검색 및 필터" hidden>
+      <div class="page-heading"><h1>Publications</h1><p>Browse domestic and international papers and patents by title, author, or research topic.</p></div>
+      <section class="publication-controls" aria-label="Search and filter publications" hidden>
         <div class="control-grid">
-          <label>검색<input id="publication-search" type="search" placeholder="제목, 저자, 학회·저널명" autocomplete="off"></label>
-          <label>구분<select id="publication-region"><option value="">전체</option><option value="international">국제</option><option value="domestic">국내</option></select></label>
-          <label>유형<select id="publication-type"><option value="">전체</option><option>학술지</option><option>학술대회</option><option>특허</option></select></label>
-          <label>정렬<select id="publication-sort"><option value="new">최신순</option><option value="old">오래된순</option></select></label>
+          <label>Search<input id="publication-search" type="search" placeholder="Title, author, or venue" autocomplete="off"></label>
+          <label>Scope<select id="publication-region"><option value="">All</option><option value="international">International</option><option value="domestic">Domestic</option></select></label>
+          <label>Type<select id="publication-type"><option value="">All</option><option>Journal</option><option>Conference</option><option>Patent</option></select></label>
+          <label>Sort by<select id="publication-sort"><option value="new">Newest first</option><option value="old">Oldest first</option></select></label>
         </div>
-        <fieldset class="topic-field"><legend>연구 주제</legend><div id="publication-topics" class="chips"><button type="button" data-topic="" aria-pressed="true">전체</button><button type="button" data-topic="reconstruction" aria-pressed="false">3D 복원</button><button type="button" data-topic="mesh" aria-pressed="false">메시 및 품질 평가</button><button type="button" data-topic="face" aria-pressed="false">얼굴 및 아바타</button><button type="button" data-topic="media" aria-pressed="false">멀티모달 AI</button><button type="button" data-topic="vision" aria-pressed="false">컴퓨터 비전</button></div></fieldset>
+        <fieldset class="topic-field"><legend>Research topic</legend><div id="publication-topics" class="chips"><button type="button" data-topic="" aria-pressed="true">All</button><button type="button" data-topic="reconstruction" aria-pressed="false">3D Reconstruction</button><button type="button" data-topic="mesh" aria-pressed="false">Meshes and Quality Assessment</button><button type="button" data-topic="face" aria-pressed="false">Faces and Avatars</button><button type="button" data-topic="media" aria-pressed="false">Multimodal AI</button><button type="button" data-topic="vision" aria-pressed="false">Computer Vision</button></div></fieldset>
       </section>
-      <div class="results-header"><p id="publication-count" role="status">저작물 목록을 불러오는 중입니다.</p><button type="button" id="publication-reset" class="text-link" hidden>필터 초기화</button></div>
+      <div class="results-header"><p id="publication-count" role="status">Loading publications…</p><button type="button" id="publication-reset" class="text-link" hidden>Reset filters</button></div>
       <div id="publication-list" data-source="./publications.json"></div>
-      <noscript><p>검색과 필터를 사용하려면 JavaScript를 켜 주세요. <a href="https://sites.google.com/view/3dvislab/publications">국제 저작물</a>과 <a href="https://sites.google.com/view/3dvislab/publications/domestic">국내 저작물</a>은 기존 사이트에서 볼 수 있습니다.</p></noscript>
-      <p class="publication-note">+ 공동 기여 · * 교신저자. 썸네일은 연구 주제를 나타내는 일러스트입니다.</p>
+      <noscript><p>Enable JavaScript to search and filter publications. The <a href="https://sites.google.com/view/3dvislab/publications">international publications</a> and <a href="https://sites.google.com/view/3dvislab/publications/domestic">domestic publications</a> are available on the previous site.</p></noscript>
+      <p class="publication-note">+ Equal contribution · * Corresponding author. Thumbnails illustrate research topics. English translations of Korean titles are labeled.</p>
     </div></main>
   <footer class="site-footer" id="contact">
     <div class="wrap footer-inner">
-      <div><a href="./" class="brand"><img src="./logo.png" alt="" width="59" height="26"><span>3DVis Lab</span></a><p>국립한밭대학교 인공지능소프트웨어학과</p></div>
-      <address>세종특별자치시 집현북로 109<br>세종공동캠퍼스 8동 307호 (30139)<br><a href="mailto:sm.lee@hanbat.ac.kr">sm.lee@hanbat.ac.kr</a></address>
+      <div><a href="./" class="brand"><img src="./logo.png" alt="" width="59" height="26"><span>3DVis Lab</span></a><p>Department of Artificial Intelligence Software, Hanbat National University</p></div>
+      <address>Room 307, Building 8, Sejong Common Campus<br>109 Jiphyeonbuk-ro, Sejong 30139, Republic of Korea<br><a href="mailto:sm.lee@hanbat.ac.kr">sm.lee@hanbat.ac.kr</a></address>
     </div>
   </footer>
 </body>

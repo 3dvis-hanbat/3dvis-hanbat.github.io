@@ -6,22 +6,22 @@
     "year": 2025,
     "topic": "reconstruction",
     "region": "international",
-    "type": "학술지",
+    "type": "Journal",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/10994246"
       },
       {
-        "label": "데이터",
+        "label": "Dataset",
         "url": "http://insight.yonsei.ac.kr/gnuboard/bbs/content.php?co_id=download_mvhuman"
       },
       {
-        "label": "프로젝트",
+        "label": "Project",
         "url": "https://melung.github.io/"
       },
       {
-        "label": "코드",
+        "label": "Code",
         "url": "https://github.com/melung/SnowMVSNet"
       }
     ]
@@ -33,10 +33,10 @@
     "year": 2025,
     "topic": "face",
     "region": "international",
-    "type": "학술지",
+    "type": "Journal",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://dl.acm.org/doi/10.1145/3734874"
       }
     ]
@@ -48,10 +48,10 @@
     "year": 2025,
     "topic": "mesh",
     "region": "international",
-    "type": "학술지",
+    "type": "Journal",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/10449446"
       }
     ]
@@ -63,10 +63,10 @@
     "year": 2024,
     "topic": "mesh",
     "region": "international",
-    "type": "학술지",
+    "type": "Journal",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/10584322"
       }
     ]
@@ -78,10 +78,10 @@
     "year": 2023,
     "topic": "face",
     "region": "international",
-    "type": "학술지",
+    "type": "Journal",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://www.mdpi.com/2079-9292/12/17/3735"
       }
     ]
@@ -93,10 +93,10 @@
     "year": 2022,
     "topic": "reconstruction",
     "region": "international",
-    "type": "학술지",
+    "type": "Journal",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://www.mdpi.com/1424-8220/22/11/4142"
       }
     ]
@@ -108,10 +108,10 @@
     "year": 2022,
     "topic": "face",
     "region": "international",
-    "type": "학술지",
+    "type": "Journal",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9363627/"
       }
     ]
@@ -123,10 +123,10 @@
     "year": 2022,
     "topic": "reconstruction",
     "region": "international",
-    "type": "학술지",
+    "type": "Journal",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://www.mdpi.com/1424-8220/22/9/3332"
       }
     ]
@@ -138,14 +138,14 @@
     "year": 2022,
     "topic": "reconstruction",
     "region": "international",
-    "type": "학술지",
+    "type": "Journal",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9456855/"
       },
       {
-        "label": "데이터",
+        "label": "Dataset",
         "url": "http://insight.yonsei.ac.kr/gnuboard/bbs/content.php?co_id=download_rgbd_db"
       }
     ]
@@ -157,14 +157,14 @@
     "year": 2025,
     "topic": "mesh",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://dl.acm.org/doi/10.1145/3746027.3754705"
       },
       {
-        "label": "코드",
+        "label": "Code",
         "url": "https://github.com/naive2kj90/DCNRR"
       }
     ]
@@ -176,10 +176,10 @@
     "year": 2024,
     "topic": "face",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://www.ijcai.org/proceedings/2024/1008"
       }
     ]
@@ -191,10 +191,10 @@
     "year": 2024,
     "topic": "media",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://www.ijcai.org/proceedings/2024/1027"
       }
     ]
@@ -206,10 +206,10 @@
     "year": 2024,
     "topic": "face",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/10446842/"
       }
     ]
@@ -221,10 +221,10 @@
     "year": 2023,
     "topic": "vision",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/10222398/"
       }
     ]
@@ -236,10 +236,10 @@
     "year": 2023,
     "topic": "face",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/10337645"
       }
     ]
@@ -251,7 +251,7 @@
     "year": 2023,
     "topic": "face",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": []
   },
   {
@@ -261,10 +261,10 @@
     "year": 2023,
     "topic": "face",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/10222385"
       }
     ]
@@ -276,10 +276,10 @@
     "year": 2022,
     "topic": "face",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9980100/"
       }
     ]
@@ -291,7 +291,7 @@
     "year": 2022,
     "topic": "vision",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": []
   },
   {
@@ -301,10 +301,10 @@
     "year": 2021,
     "topic": "vision",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9689595/"
       }
     ]
@@ -316,10 +316,10 @@
     "year": 2021,
     "topic": "vision",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9733619/"
       }
     ]
@@ -331,10 +331,10 @@
     "year": 2021,
     "topic": "reconstruction",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9506166"
       }
     ]
@@ -346,10 +346,10 @@
     "year": 2021,
     "topic": "reconstruction",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9576787"
       }
     ]
@@ -361,10 +361,10 @@
     "year": 2021,
     "topic": "vision",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9576808"
       }
     ]
@@ -376,10 +376,10 @@
     "year": 2020,
     "topic": "media",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9306435"
       }
     ]
@@ -391,10 +391,10 @@
     "year": 2020,
     "topic": "face",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://diglib.eg.org/server/api/core/bitstreams/fbc4ad3b-bf99-4120-a89d-249d8d7901eb/content"
       }
     ]
@@ -406,10 +406,10 @@
     "year": 2019,
     "topic": "mesh",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/abstract/document/9023235"
       }
     ]
@@ -421,10 +421,10 @@
     "year": 2019,
     "topic": "vision",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9023258"
       }
     ]
@@ -436,217 +436,251 @@
     "year": 2019,
     "topic": "media",
     "region": "international",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://ieeexplore.ieee.org/document/9010856"
       }
     ]
   },
   {
     "title": "Personalized Speech-Driven Emotional 3D Talking Face Animation via Context–Emotion Decoupling",
-    "authors": "이성민*",
-    "venue": "Journal of Multimedia Information System (JMIS), 제 13권, 제 1호, 2026년 3월.",
+    "authors": "Seongmin Lee*",
+    "venue": "Journal of Multimedia Information System (JMIS), vol. 13, no. 1, March 2026.",
     "year": 2026,
     "topic": "face",
     "region": "domestic",
-    "type": "학술지",
+    "type": "Journal",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://www.jmis.org/archive/view_article?pid=jmis-13-1-1"
       }
-    ]
+    ],
+    "originalAuthors": "이성민*"
   },
   {
     "title": "Temporal Facial Alignment with Triple Discriminators",
-    "authors": "이성민, 윤현세, 이상훈, 강지우*",
-    "venue": "Journal of Multimedia Information System (JMIS), 제 10권, 제 2호, 2023년 6월.",
+    "authors": "Seongmin Lee, Hyunse Yoon, Sanghoon Lee, Jiwoo Kang*",
+    "venue": "Journal of Multimedia Information System (JMIS), vol. 10, no. 2, June 2023.",
     "year": 2023,
     "topic": "face",
     "region": "domestic",
-    "type": "학술지",
+    "type": "Journal",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://www.jmis.org/archive/view_article?pid=jmis-10-2-101"
       }
-    ]
+    ],
+    "originalAuthors": "이성민, 윤현세, 이상훈, 강지우*"
   },
   {
-    "title": "정교한 3D Gaussian 편집을 위한 단이 라벨 할당 및 경계 보정",
-    "authors": "고재은, 이성민*, 강지우*",
-    "venue": "한국멀티미디어학회 추계학술발표대회, 2025년 11월.",
+    "title": "Label Assignment and Boundary Refinement for Precise 3D Gaussian Editing",
+    "authors": "Jae-eun Ko, Seongmin Lee*, Jiwoo Kang*",
+    "venue": "Korea Multimedia Society Conference, November 2025.",
     "year": 2025,
     "topic": "reconstruction",
     "region": "domestic",
-    "type": "학술대회",
-    "links": []
+    "type": "Conference",
+    "links": [],
+    "originalTitle": "정교한 3D Gaussian 편집을 위한 단이 라벨 할당 및 경계 보정",
+    "originalAuthors": "고재은, 이성민*, 강지우*"
   },
   {
-    "title": "생성적 적대 신경을 이용한 텍스트-이미지 생성 기술",
-    "authors": "전유채, 이성민*, 강지우*",
-    "venue": "한국멀티미디어학회 추계학술발표대회, 2025년 5월.",
+    "title": "Text-to-Image Generation Using Generative Adversarial Networks",
+    "authors": "Yu-chae Jeon, Seongmin Lee*, Jiwoo Kang*",
+    "venue": "Korea Multimedia Society Conference, May 2025.",
     "year": 2025,
     "topic": "media",
     "region": "domestic",
-    "type": "학술대회",
-    "links": []
+    "type": "Conference",
+    "links": [],
+    "originalTitle": "생성적 적대 신경을 이용한 텍스트-이미지 생성 기술",
+    "originalAuthors": "전유채, 이성민*, 강지우*"
   },
   {
-    "title": "Deepstream과 가중치 가지치기를 활용한 사람 자세추정 어플리케이션 가속화에 대한 연구",
-    "authors": "이혁상, 허수웅, 이성민, 조의현, 이상훈*",
-    "venue": "한국통신학회 동계종합학술발표회, 2023년 2월.",
+    "title": "Accelerating Human Pose Estimation with DeepStream and Weight Pruning",
+    "authors": "Hyucksang Lee, Suwoong Heo, Seongmin Lee, Uihyeon Jo, Sanghoon Lee*",
+    "venue": "KICS Winter Conference, February 2023.",
     "year": 2023,
     "topic": "vision",
     "region": "domestic",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11227525"
       }
-    ]
+    ],
+    "originalTitle": "Deepstream과 가중치 가지치기를 활용한 사람 자세추정 어플리케이션 가속화에 대한 연구",
+    "originalAuthors": "이혁상, 허수웅, 이성민, 조의현, 이상훈*"
   },
   {
-    "title": "유니티 엔진과 키넥트를 활용한 실시간 아바타 모델 구현",
-    "authors": "장민규, 이경준, 박재성, 이성민, 최성화, 이상훈*",
-    "venue": "한국통신학회 동계종합학술발표회, 2020년 2월.",
+    "title": "Real-Time Avatar Modeling with the Unity Engine and Kinect",
+    "authors": "Mingyu Jang, Kyungjune Lee, Jae-seong Park, Seongmin Lee, Seong-hwa Choi, Sanghoon Lee*",
+    "venue": "KICS Winter Conference, February 2020.",
     "year": 2020,
     "topic": "face",
     "region": "domestic",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE09346730"
       }
-    ]
+    ],
+    "originalTitle": "유니티 엔진과 키넥트를 활용한 실시간 아바타 모델 구현",
+    "originalAuthors": "장민규, 이경준, 박재성, 이성민, 최성화, 이상훈*"
   },
   {
-    "title": "심층 신경망과 서포트 벡터 머신을 이용한 고속 화자 인식에 관한 연구",
-    "authors": "이경준, 이성민, 최성화, 이준규, 이상훈*",
-    "venue": "한국통신학회 동계종합학술발표회, 2019년 1월.",
+    "title": "Fast Speaker Recognition Using Deep Neural Networks and Support Vector Machines",
+    "authors": "Kyungjune Lee, Seongmin Lee, Seong-hwa Choi, Jun-gyu Lee, Sanghoon Lee*",
+    "venue": "KICS Winter Conference, January 2019.",
     "year": 2019,
     "topic": "media",
     "region": "domestic",
-    "type": "학술대회",
+    "type": "Conference",
     "links": [
       {
-        "label": "원문",
+        "label": "Paper",
         "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE08003733"
       }
-    ]
+    ],
+    "originalTitle": "심층 신경망과 서포트 벡터 머신을 이용한 고속 화자 인식에 관한 연구",
+    "originalAuthors": "이경준, 이성민, 최성화, 이준규, 이상훈*"
   },
   {
-    "title": "감성적 음성 기반 캐릭터 얼굴 및 머리 모션 생성시스템 및 그를 위한 방법",
-    "authors": "이성민",
-    "venue": "출원번호 10-2026-0003957, 2026년 1월 9일",
+    "title": "System and Method for Generating Character Facial and Head Motion from Emotional Speech",
+    "authors": "Seongmin Lee",
+    "venue": "Korean patent application no. 10-2026-0003957, January 9, 2026",
     "year": 2026,
     "topic": "face",
     "region": "domestic",
-    "type": "특허",
-    "links": []
+    "type": "Patent",
+    "links": [],
+    "originalTitle": "감성적 음성 기반 캐릭터 얼굴 및 머리 모션 생성시스템 및 그를 위한 방법",
+    "originalAuthors": "이성민"
   },
   {
-    "title": "3차원 메쉬 노이즈 제거 방법 및 그 시스템",
-    "authors": "이상훈, 이성민",
-    "venue": "출원번호 10-2024-0114838, 2024년 8월 27일",
+    "title": "Method and System for 3D Mesh Denoising",
+    "authors": "Sanghoon Lee, Seongmin Lee",
+    "venue": "Korean patent application no. 10-2024-0114838, August 27, 2024",
     "year": 2024,
     "topic": "mesh",
     "region": "domestic",
-    "type": "특허",
-    "links": []
+    "type": "Patent",
+    "links": [],
+    "originalTitle": "3차원 메쉬 노이즈 제거 방법 및 그 시스템",
+    "originalAuthors": "이상훈, 이성민"
   },
   {
-    "title": "3D 얼굴 정렬을 이용한 얼굴 이미지 생성 장치 및 방법",
-    "authors": "이상훈, 손지완, 이성민, 윤현세",
-    "venue": "출원번호 10-2023-0168747, 2023년 11월 29일",
+    "title": "Apparatus and Method for Generating Face Images Using 3D Face Alignment",
+    "authors": "Sanghoon Lee, Jiwan Son, Seongmin Lee, Hyunse Yoon",
+    "venue": "Korean patent application no. 10-2023-0168747, November 29, 2023",
     "year": 2023,
     "topic": "face",
     "region": "domestic",
-    "type": "특허",
-    "links": []
+    "type": "Patent",
+    "links": [],
+    "originalTitle": "3D 얼굴 정렬을 이용한 얼굴 이미지 생성 장치 및 방법",
+    "originalAuthors": "이상훈, 손지완, 이성민, 윤현세"
   },
   {
-    "title": "현실감을 보존하는 콘텐츠 적응형 가상 현실 피로도 저감 방법 및 이를 이용한 시스템",
-    "authors": "이상훈, 이정행, 이성민, 김진우",
-    "venue": "등록번호 10-2678893, 2024년 6월 24일",
+    "title": "Content-Adaptive Method and System for Reducing Virtual Reality Fatigue While Preserving Realism",
+    "authors": "Sanghoon Lee, Jeonghaeng Lee, Seongmin Lee, Jinwoo Kim",
+    "venue": "Korean patent registration no. 10-2678893, June 24, 2024",
     "year": 2024,
     "topic": "media",
     "region": "domestic",
-    "type": "특허",
-    "links": []
+    "type": "Patent",
+    "links": [],
+    "originalTitle": "현실감을 보존하는 콘텐츠 적응형 가상 현실 피로도 저감 방법 및 이를 이용한 시스템",
+    "originalAuthors": "이상훈, 이정행, 이성민, 김진우"
   },
   {
-    "title": "사영 공간에서의 구조적 유사성을 이용한 3차원 매쉬 퀄리티 평가 방법, 이를 수행하는 장치 및 컴퓨터 프로그램",
-    "authors": "이상훈, 이성민, 강지우",
-    "venue": "출원번호 10-2022-0033809, 2022년 3월 18일",
+    "title": "Method, Apparatus, and Computer Program for 3D Mesh Quality Assessment Using Projective Structural Similarity",
+    "authors": "Sanghoon Lee, Seongmin Lee, Jiwoo Kang",
+    "venue": "Korean patent application no. 10-2022-0033809, March 18, 2022",
     "year": 2022,
     "topic": "mesh",
     "region": "domestic",
-    "type": "특허",
-    "links": []
+    "type": "Patent",
+    "links": [],
+    "originalTitle": "사영 공간에서의 구조적 유사성을 이용한 3차원 매쉬 퀄리티 평가 방법, 이를 수행하는 장치 및 컴퓨터 프로그램",
+    "originalAuthors": "이상훈, 이성민, 강지우"
   },
   {
-    "title": "멀티뷰 심층 표현을 사용한 3차원 얼굴 유사성 평가 방법 및 장치",
-    "authors": "이상훈, 강지우, 이성민",
-    "venue": "등록번호 10-2705532, 2024년 9월 5일",
+    "title": "Method and Apparatus for Assessing 3D Face Similarity Using Deep Multiview Representations",
+    "authors": "Sanghoon Lee, Jiwoo Kang, Seongmin Lee",
+    "venue": "Korean patent registration no. 10-2705532, September 5, 2024",
     "year": 2024,
     "topic": "face",
     "region": "domestic",
-    "type": "특허",
-    "links": []
+    "type": "Patent",
+    "links": [],
+    "originalTitle": "멀티뷰 심층 표현을 사용한 3차원 얼굴 유사성 평가 방법 및 장치",
+    "originalAuthors": "이상훈, 강지우, 이성민"
   },
   {
-    "title": "단일 심도 카메라를 이용한 3차원 복원 방법 및 장치",
-    "authors": "이상훈, 이성민, 강지우",
-    "venue": "등록번호 10-2483354, 2022년 12월 27일",
+    "title": "Method and Apparatus for 3D Reconstruction Using a Single Depth Camera",
+    "authors": "Sanghoon Lee, Seongmin Lee, Jiwoo Kang",
+    "venue": "Korean patent registration no. 10-2483354, December 27, 2022",
     "year": 2022,
     "topic": "reconstruction",
     "region": "domestic",
-    "type": "특허",
-    "links": []
+    "type": "Patent",
+    "links": [],
+    "originalTitle": "단일 심도 카메라를 이용한 3차원 복원 방법 및 장치",
+    "originalAuthors": "이상훈, 이성민, 강지우"
   },
   {
-    "title": "로컬 퍼스펙티브 와핑을 이용한 멀티-뷰 볼륨메트릭 합성 방법 및 장치",
-    "authors": "이상훈, 이성민, 강지우",
-    "venue": "등록번호 10-2556057, 2023월 7월 11일",
+    "title": "Method and Apparatus for Multiview Volumetric Fusion Using Local Perspective Warping",
+    "authors": "Sanghoon Lee, Seongmin Lee, Jiwoo Kang",
+    "venue": "Korean patent registration no. 10-2556057, July 11, 2023",
     "year": 2023,
     "topic": "reconstruction",
     "region": "domestic",
-    "type": "특허",
-    "links": []
+    "type": "Patent",
+    "links": [],
+    "originalTitle": "로컬 퍼스펙티브 와핑을 이용한 멀티-뷰 볼륨메트릭 합성 방법 및 장치",
+    "originalAuthors": "이상훈, 이성민, 강지우"
   },
   {
-    "title": "얼굴 이미지 색상 합성 장치 및 방법",
-    "authors": "이상훈, 강지우, 이성민",
-    "venue": "등록번호 10-2358854, 2022년 1월 28일",
+    "title": "Apparatus and Method for Face Image Color Synthesis",
+    "authors": "Sanghoon Lee, Jiwoo Kang, Seongmin Lee",
+    "venue": "Korean patent registration no. 10-2358854, January 28, 2022",
     "year": 2022,
     "topic": "face",
     "region": "domestic",
-    "type": "특허",
-    "links": []
+    "type": "Patent",
+    "links": [],
+    "originalTitle": "얼굴 이미지 색상 합성 장치 및 방법",
+    "originalAuthors": "이상훈, 강지우, 이성민"
   },
   {
-    "title": "경쟁적 학습을 이용한 3차원 얼굴 이미지 합성 장치 및 방법",
-    "authors": "이상훈 강지우, 이성민",
-    "venue": "등록번호 10-2422822, 2022년 7월 14일",
+    "title": "Apparatus and Method for 3D Face Image Synthesis Using Competitive Learning",
+    "authors": "Sanghoon Lee, Jiwoo Kang, Seongmin Lee",
+    "venue": "Korean patent registration no. 10-2422822, July 14, 2022",
     "year": 2022,
     "topic": "face",
     "region": "domestic",
-    "type": "특허",
-    "links": []
+    "type": "Patent",
+    "links": [],
+    "originalTitle": "경쟁적 학습을 이용한 3차원 얼굴 이미지 합성 장치 및 방법",
+    "originalAuthors": "이상훈 강지우, 이성민"
   },
   {
-    "title": "합성곱 신경망 기반의 스테레오스코픽 이미지 화질 평가 방법 및 장치",
-    "authors": "이상훈, 이성민",
-    "venue": "출원번호 10-2019-0168080, 2019년 12월 16일",
+    "title": "Method and Apparatus for Stereoscopic Image Quality Assessment Using a Convolutional Neural Network",
+    "authors": "Sanghoon Lee, Seongmin Lee",
+    "venue": "Korean patent application no. 10-2019-0168080, December 16, 2019",
     "year": 2019,
     "topic": "mesh",
     "region": "domestic",
-    "type": "특허",
-    "links": []
+    "type": "Patent",
+    "links": [],
+    "originalTitle": "합성곱 신경망 기반의 스테레오스코픽 이미지 화질 평가 방법 및 장치",
+    "originalAuthors": "이상훈, 이성민"
   }
 ]
