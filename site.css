@@ -1,43 +1,8 @@
 @font-face {
-  font-family: "Barlow";
-  src: url("./barlow-400.woff2") format("woff2");
+  font-family: "Source Sans 3";
+  src: url("./source-sans-3.woff2") format("woff2");
   font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Barlow";
-  src: url("./barlow-500.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Barlow";
-  src: url("./barlow-600.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Barlow";
-  src: url("./barlow-700.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Barlow";
-  src: url("./barlow-800.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 800;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Roboto Mono";
-  src: url("./roboto-mono-400.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 400;
+  font-weight: 200 900;
   font-display: swap;
 }
 
@@ -76,7 +41,7 @@
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
 html { scroll-padding-top: 90px; }
-body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; background: var(--page); color: var(--ink); font: 1rem/1.65 "Barlow", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif; }
+body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; background: var(--page); color: var(--ink); font: 1rem/1.65 "Source Sans 3", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif; }
 main { flex: 1; }
 img { display: block; max-width: 100%; }
 button, input, select { font: inherit; }
@@ -173,7 +138,7 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .term { padding: 22px; }
 .term h2 { font-size: 1.27rem; margin-bottom: .8rem; }
 .term li { display: flex; gap: .7rem; justify-content: space-between; align-items: baseline; padding-block: .55rem; border-top: 1px solid var(--line); }
-.term code { font-family: "Roboto Mono", ui-monospace, monospace; color: var(--accent); font-size: .85rem; white-space: nowrap; }
+.term code { font-family: inherit; font-variant-numeric: tabular-nums; color: var(--accent); font-size: .85rem; white-space: nowrap; }
 .publication-controls { padding: 20px; background: var(--surface); border: 1px solid var(--line); border-radius: 13px; }
 .control-grid { display: grid; grid-template-columns: minmax(0,2.4fr) repeat(3,minmax(0,1fr)); gap: 12px; }
 .control-grid label,.topic-field legend { color: var(--muted); font-weight: 700; font-size: .9rem; }
