@@ -1,3 +1,46 @@
+@font-face {
+  font-family: "Barlow";
+  src: url("./barlow-400.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("./barlow-500.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("./barlow-600.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("./barlow-700.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("./barlow-800.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("./roboto-mono-400.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 :root {
   color-scheme: light;
   --page: #fbfbfe;
@@ -33,7 +76,7 @@
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
 html { scroll-padding-top: 90px; }
-body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; background: var(--page); color: var(--ink); font: 1rem/1.65 "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif; }
+body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; background: var(--page); color: var(--ink); font: 1rem/1.65 "Barlow", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif; }
 main { flex: 1; }
 img { display: block; max-width: 100%; }
 button, input, select { font: inherit; }
@@ -42,7 +85,7 @@ a { color: var(--accent); text-underline-offset: .22em; }
 a:hover { color: var(--accent-strong); }
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; }
 h1,h2,h3,p { margin: 0; }
-h1,h2,h3 { line-height: 1.22; letter-spacing: -.035em; }
+h1,h2,h3 { line-height: 1.22; letter-spacing: -.02em; }
 h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .wrap { width: min(1120px, calc(100% - 80px)); margin-inline: auto; }
 .skip { position: absolute; z-index: 10; left: 1rem; top: 1rem; transform: translateY(-160%); padding: .65rem 1rem; background: var(--surface); }
@@ -64,7 +107,7 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .hero-content { padding-block: .75rem; }
 .eyebrow { display: flex; align-items: center; gap: 10px; margin-bottom: 1rem; color: var(--accent); font-size: .82rem; font-weight: 750; letter-spacing: .115em; text-transform: uppercase; }
 .rule { width: 26px; height: 2px; background: var(--accent-strong); }
-.hero h1 { font-size: clamp(3.1rem,6.75vw,6.45rem); line-height: .975; letter-spacing: -.082em; font-weight: 780; }
+.hero h1 { font-size: clamp(3.1rem,6.75vw,6.45rem); line-height: .975; letter-spacing: -.05em; font-weight: 700; }
 .hero h1 span { color: var(--accent); background: var(--gradient); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
 .hero-copy { max-width: 31rem; margin-top: 1.6rem; color: var(--muted); font-size: clamp(1rem,1.2vw,1.125rem); word-break: keep-all; }
 .hero-actions { margin-top: 1.6rem; display: flex; flex-wrap: wrap; gap: 10px; }
@@ -102,7 +145,7 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .inner-page { padding-block: clamp(46px,7vw,86px) 44px; }
 .page-heading { padding-bottom: 31px; margin-bottom: 31px; border-bottom: 1px solid var(--line); }
 .page-heading .eyebrow { margin-bottom: .55rem; }
-.page-heading h1 { font-size: clamp(2.55rem,6vw,4.7rem); letter-spacing: -.07em; }
+.page-heading h1 { font-size: clamp(2.55rem,6vw,4.7rem); letter-spacing: -.04em; }
 .page-heading > p:last-child { margin-top: .9rem; max-width: 46rem; color: var(--muted); word-break: keep-all; }
 .project-section,.team-section { margin-top: 39px; }
 .project-section > h2,.subhead { margin-bottom: .9rem; font-size: 1.38rem; }
@@ -130,7 +173,7 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 .term { padding: 22px; }
 .term h2 { font-size: 1.27rem; margin-bottom: .8rem; }
 .term li { display: flex; gap: .7rem; justify-content: space-between; align-items: baseline; padding-block: .55rem; border-top: 1px solid var(--line); }
-.term code { color: var(--accent); font-size: .85rem; white-space: nowrap; }
+.term code { font-family: "Roboto Mono", ui-monospace, monospace; color: var(--accent); font-size: .85rem; white-space: nowrap; }
 .publication-controls { padding: 20px; background: var(--surface); border: 1px solid var(--line); border-radius: 13px; }
 .control-grid { display: grid; grid-template-columns: minmax(0,2.4fr) repeat(3,minmax(0,1fr)); gap: 12px; }
 .control-grid label,.topic-field legend { color: var(--muted); font-weight: 700; font-size: .9rem; }
