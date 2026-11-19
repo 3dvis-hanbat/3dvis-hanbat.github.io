@@ -80,8 +80,7 @@ h2 { font-size: clamp(1.42rem, 2.8vw, 1.9rem); }
 [data-theme="dark"] .theme-icon { width: 11px; height: 11px; box-shadow: 0 -9px 0 -4px, 0 9px 0 -4px, 9px 0 0 -4px,-9px 0 0 -4px,6px 6px 0 -4px,-6px 6px 0 -4px,6px -6px 0 -4px,-6px -6px 0 -4px; }
 .hero { display: grid; grid-template-columns: 1fr .99fr; align-items: center; gap: clamp(24px,4.4vw,62px); padding-block: clamp(60px,7vw,104px) clamp(54px,7vw,90px); }
 .hero-content { padding-block: .75rem; }
-.hero-text-only { grid-template-columns: minmax(0, 1fr); }
-.hero-text-only .hero-copy { max-width: 43rem; }
+.hero .hero-intro .hero-copy { margin-top: 0; }
 .hero-fields { margin: .65rem 0 0; padding-inline-start: 1.3em; color: var(--ink); }
 .eyebrow { display: flex; align-items: center; gap: 10px; margin-bottom: 1rem; color: var(--accent); font-size: .82rem; font-weight: 750; letter-spacing: .115em; text-transform: uppercase; }
 .rule { width: 26px; height: 2px; background: var(--accent-strong); }
