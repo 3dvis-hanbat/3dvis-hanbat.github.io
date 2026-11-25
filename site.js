@@ -26,6 +26,14 @@ function element(tag, text, className) {
   return el;
 }
 
+function newTabLink(text, url) {
+  const link = element('a', text);
+  link.href = url;
+  link.target = '_blank';
+  link.rel = 'noopener';
+  return link;
+}
+
 function record(item, base) {
   const article = element('article', '', 'publication-record');
   const thumb = element('img', '', item.thumbnail ? '' : 'publication-placeholder');
@@ -38,8 +46,7 @@ function record(item, base) {
   const title = element('h3', item.title);
   const paper = item.links.find(link => link.label === 'Paper');
   if (paper) {
-    const link = element('a', item.title);
-    link.href = paper.url;
+    const link = newTabLink(item.title, paper.url);
     title.replaceChildren(link);
   }
   const tags = element('div', '', 'publication-tags');
@@ -48,8 +55,7 @@ function record(item, base) {
   tags.append(typeTag);
   for (const resource of item.links) {
     if (resource.label === 'Paper') continue;
-    const link = element('a', resource.label);
-    link.href = resource.url;
+    const link = newTabLink(resource.label, resource.url);
     link.setAttribute('aria-label', resource.label + ' · ' + item.title);
     tags.append(link);
   }
@@ -78,8 +84,7 @@ async function loadPublications() {
     items = await response.json();
   } catch {
     count.textContent = 'Could not load the publications.';
-    const original = element('a', 'View publications on the previous site');
-    original.href = 'https://sites.google.com/view/3dvislab/publications';
+    const original = newTabLink('View publications on the previous site', 'https://sites.google.com/view/3dvislab/publications');
     list.append(original);
     return;
   }
