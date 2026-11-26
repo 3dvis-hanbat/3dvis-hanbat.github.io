@@ -1,7 +1,7 @@
 /* Korean glyphs used by current titles and student names. */
 @font-face {
   font-family: "Noto Sans KR";
-  src: url("./noto-sans-kr.woff2?v=4") format("woff2");
+  src: url("./noto-sans-kr.woff2?v=5") format("woff2");
   font-style: normal;
   font-weight: 400 800;
   font-display: swap;
